@@ -1,0 +1,25 @@
+#home .firstSection h1 {
+  width: 400px; }
+  @media (max-width: 768px) {
+    #home .firstSection h1 {
+      width: 800px; } }
+
+#home .registerCard {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16); }
+
+#home .btn.btn-danger.btn-block {
+  background-color: #ed6564 !important; }
+
+#home h2 {
+  margin-top: 35px;
+  text-align: center; }
+
+#home .thirdSection .contents {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*fraction*/ }
+  @media (max-width: 768px) {
+    #home .thirdSection .contents {
+      /*breakpoint*/
+      grid-template-columns: none; } }
