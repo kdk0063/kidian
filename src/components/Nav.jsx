@@ -6,7 +6,6 @@ class Nav extends Component {
 
     render(){
         return (
-            <div className="NavKidian">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <Link className="navbar-brand" to="/home">
                         KIDIAN
@@ -26,6 +25,9 @@ class Nav extends Component {
                             <Link className="nav-item navlinks" to='/Home'>
                                 HOME
                             </Link>
+                            <Link className="nav-item navlinks" to='/Provider'>
+                                Provider
+                            </Link>  
                             <Link className="nav-item navlinks" to='/Parents'>
                                 PARENTS
                             </Link>                          
@@ -35,7 +37,6 @@ class Nav extends Component {
                         </div>
                     </div>
                 </nav>
-            </div>
         )
     };
 }

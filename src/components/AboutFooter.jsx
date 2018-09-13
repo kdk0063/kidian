@@ -1,75 +1,37 @@
 import React, { Component } from "react"; 
-import '../css/footer-basic-centered.css';
 
 class AboutFooter extends Component{ 
     render (){ 
         return(
-            <div>
-                <footer className="footer-basic-centered">
+            <div className="container">
+                <div className="row mtx text-center">
+                    <div className="col-md-10 col-md-offset-1 ">  
+                        <div className="footer-buttons clearfix">
+                            <div className="social-links mtm mbm">
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <img alt="Twitter" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/twitter%402x.png" data-at2x="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/twitter%402x.png" width="28" height="23" />
+                                </a>
 
-                    <div className="footer-left">
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <img alt="LinkedIn" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/linkedin%402x.png" data-at2x="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/linkedin%402x.png" width="28" height="26" />
+                                </a>
 
-                        <h3>Company
-                            <span>logo</span>
-                        </h3>
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <img alt="Facebook" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/facebook%402x.png" data-at2x="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/facebook%402x.png" width="15" height="30" />
+                                </a>
 
-                        {/* <p className="footer-links">
-                            <a href="#">Home</a>
-                            ·
-                            <a href="#">Blog</a>
-                            ·
-                            <a href="#">Pricing</a>
-                            ·
-                            <a href="#">About</a>
-                            ·
-                            <a href="#">Faq</a>
-                            ·
-                            <a href="#">Contact</a>
-                        </p> */}                       
-                    </div>
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <img alt="Instagram" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/instagram%402x.png" data-at2x="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/instagram%402x.png" width="32" height="32" />
+                                </a>
 
-                    <div className="footer-center">
-
-                        <div>
-                            <i className="fa fa-map-marker"></i>
-                            <p>
-                                <span>21 Revolution Street</span> Paris, France</p>
+                                <a href="#" target="_blank" rel="noreferrer">
+                                    <img alt="Email" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/email%402x.png" data-at2x="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/email%402x.png" width="34" height="24" />
+                                </a>
+                            </div>
                         </div>
-
-                        <div>
-                            <i className="fa fa-phone"></i>
-                            <p>+1 555 123456</p>
-                        </div>
-
-                        <div>
-                            <i className="fa fa-envelope"></i>
-                            <p>
-                                <a href="mailto:support@company.com">support@company.com</a>
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div className="footer-right">                    
-                        <div className="footer-icons">
-                            <a href="#">
-                                <i className="fa fa-facebook"></i>
-                            </a>
-                            <a href="#">
-                                <i className="fa fa-twitter"></i>
-                            </a>
-                            <a href="#">
-                                <i className="fa fa-linkedin"></i>
-                            </a>
-                        </div>
-
-                        <p className="footer-company-name">Company Name &copy; 2015</p>
-                    </div>
-
-                </footer>
-
+                    </div> 
+                </div>
             </div>
-
         )    
     }
 } 

@@ -1,0 +1,80 @@
+.firstSection{
+  background-image: url("/img/photos/AdobeStock_33760154.jpeg"); 
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 75vh;
+  width: 100%;
+  height: auto;
+}
+
+.firstSection h1 {
+  width: 350px; 
+}
+
+#home .intro{
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+#home .register{
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+
+#home .btn.btn-danger.btn-block {
+  background-color: #ed6564 !important; }
+
+#home h2 {
+  margin-top: 35px;
+  text-align: center; }
+
+#home .thirdSection .contents {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*fraction*/ }
+  @media (max-width: 768px) {
+    #home .thirdSection .contents {
+      /*breakpoint*/
+      grid-template-columns: none; } }
+
+
+.fourthSection h2{
+  margin-bottom: 30px;
+}
+
+.fourthSection .find{
+  width: 300px;
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.fourthSection .row{
+    display: flex
+}
+
+.fourthSection .column {
+   flex: 50%;
+   text-align: center;
+}
+
+.findImg{
+  width: 400px;
+  height: 580px;
+}
+
+.exploreImg{
+  width: 400px;
+  height: 580px;
+}
+
+.fourthSection .explore{
+  width: 300px;
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+}

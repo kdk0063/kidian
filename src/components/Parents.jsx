@@ -4,7 +4,8 @@ class Parents extends Component{
     
     render (){
         return (
-            <div>
+            <div>           
+                
                 Parents
             </div>
         )

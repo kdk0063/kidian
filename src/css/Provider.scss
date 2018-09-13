@@ -1,0 +1,38 @@
+#home {
+
+    .firstSection{
+        h1{
+            width: 400px;
+
+            @media (max-width: 768px) {
+                width: 800px;
+            }
+        }
+    }
+        
+
+    .registerCard{
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);   
+    }
+
+    .btn.btn-danger.btn-block{
+        background-color: #ed6564 !important;  
+    }
+
+    h2{
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .thirdSection{
+        .contents{ 
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 1fr 1fr; /*fraction*/
+            
+            @media (max-width: 768px) { /*breakpoint*/            
+                grid-template-columns: none;            
+            }
+        }
+    }    
+};
