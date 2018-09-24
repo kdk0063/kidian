@@ -1,38 +1,148 @@
-#home {
+.firstSection {
+  background-image: url("/img/photos/AdobeStock_33760154.jpeg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 75vh;
+  width: 100%;
+  height: auto; }
 
-    .firstSection{
-        h1{
-            width: 400px;
+.firstSection h1 {
+  width: 350px; }
 
-            @media (max-width: 768px) {
-                width: 800px;
-            }
-        }
-    }
-        
+#home .intro {
+  margin-top: 40px;
+  margin-bottom: 25px; }
 
-    .registerCard{
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);   
-    }
+#home .register {
+  margin-top: 40px;
+  margin-bottom: 25px; }
 
-    .btn.btn-danger.btn-block{
-        background-color: #ed6564 !important;  
-    }
+#home .btn.btn-danger.btn-block {
+  background-color: #ed6564 !important; }
 
-    h2{
-        margin-top: 35px;
-        text-align: center;
-    }
+#home h2 {
+  margin-top: 100px;
+  text-align: center; }
 
-    .thirdSection{
-        .contents{ 
-            display: grid;
-            text-align: center;
-            grid-template-columns: 1fr 1fr 1fr; /*fraction*/
-            
-            @media (max-width: 768px) { /*breakpoint*/            
-                grid-template-columns: none;            
-            }
-        }
-    }    
-};
+#home .thirdSection .contents {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*fraction*/ }
+
+@media (max-width: 990px) {
+  #home .thirdSection .contents {
+    /*breakpoint*/
+    grid-template-columns: none; } }
+
+.fourthSection .row {
+  display: flex; }
+
+.fourthSection .column {
+  flex: 50%;
+  text-align: center; }
+
+.fourthSection h2 {
+  margin-bottom: 30px; }
+
+.fourthSection .find {
+  width: 300px;
+  max-width: 80%;
+  margin: auto;
+  position: relative; }
+
+.findImg {
+  width: 400px;
+  height: 580px; }
+
+.fourthSection .explore {
+  width: 300px;
+  max-width: 80%;
+  margin: auto;
+  position: relative; }
+
+.exploreImg {
+  width: 400px;
+  height: 580px; }
+
+.fourthSection .cashout {
+  width: 300px;
+  max-width: 80%;
+  margin: auto;
+  position: relative; }
+
+.cashoutImg {
+  width: 350px;
+  height: 400px; 
+  margin-right: -100px;
+}
+
+@media (max-width: 990px) {
+  .cashoutImg {
+   display: none; } 
+}
+
+.fifthhSection{
+  width: 100%;
+  background-color:rgb(245, 244, 244);
+}
+
+.fifthhSection h2{
+  margin: 40px;
+}
+
+.provider{
+  background-image: url("/img/graphics/providerlogo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.sixthSection{
+  margin-bottom: 50px;
+}
+
+.sixthSection .column{
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 40px 80px 40px 80px;
+  position: relative;
+}
+
+.stepOrders {
+  font-size: 24px; }
+
+.signup-steps {
+  list-style-type: none;
+  text-align: center; 
+  margin: 40px;
+}
+
+@media (max-width: 990px) {
+  .signup-steps {
+    margin: 50px auto; } 
+
+  .divider {
+    border: none;
+    margin-bottom: 45px; } 
+  
+  .sixthSection .column{
+    grid-template-columns: none;
+  }
+}
+
+.divider {
+  border-left: 1px solid; 
+  margin-top: 30px;
+  height: 270px;
+}
+
+
+
+
+
