@@ -1,18 +1,16 @@
 import React,{ Component } from 'react';
 import '../css/Home.css';
-import Nav from './Nav';
 
 class Home extends Component{
 
     render(){
         return(
             <div>
-
                 <div id="header">
                     <div id="welcome_text_div" className="container">
                         <p id="welcome_text"> Let's party</p>
                         <p id="welcome_under_text">Birthday party for your kids? No Problem. Kidian got you covered.</p>
-                        <a href="#" id="how_it_works">
+                        <a href="/provider" id="how_it_works">
                             How It Works
                         </a>
                     </div>

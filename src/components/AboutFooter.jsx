@@ -9,21 +9,21 @@ class AboutFooter extends Component{
                 <div className="footerBG row">
                     <div className="footer-buttons">
                         <div className="social-links">                    
-                            <a href="#" target="_blank" rel="noreferrer">
-                                <img alt="LinkedIn" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/linkedin%402x.png" width="28" height="26" />
+                            <a href="https://www.linkedin.com/company/28628571/" target="_blank">
+                                <img class="follow" src="https://www.kidian.com/wp-content/uploads/2018/05/if_2018_social_media_popular_app_logo_linkedin_3225190.png" pagespeed_url_hash="2292234944" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
                             </a>
 
-                            <a href="#" target="_blank" rel="noreferrer">
-                                <img alt="Facebook" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/facebook%402x.png"  width="15" height="30" />
+                            <a href="https://www.facebook.com/kidianapp/"       rel="noreferrer" target="_blank">
+                                <img class="follow" src="https://www.kidian.com/wp-content/uploads/2018/05/if_2018_social_media_popular_app_logo_facebook_3225194.png" pagespeed_url_hash="3950485700" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
                             </a>
 
-                            <a href="#" target="_blank" rel="noreferrer">
-                                <img alt="Instagram" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/instagram%402x.png" width="32" height="32" />
+                            <a href="https://www.instagram.com/kidian_app/" target="_blank">
+                                <img class="follow" src="https://www.kidian.com/wp-content/uploads/2018/05/if_2018_social_media_popular_app_logo_instagram_3225191.png" pagespeed_url_hash="3322666869" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
                             </a>
-
-                            <a href="#" target="_blank" rel="noreferrer">
-                                <img alt="Email" className="social-icon" src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/social/email%402x.png" width="34" height="24" />
-                            </a>
+                                
+                            <a href="https://www.youtube.com/channel/UCT5k4Cyhd8CiX2Gpi4BLggg" target="_blank">
+                                <img class="follow" src="https://www.kidian.com/wp-content/uploads/2018/05/if_2018_social_media_popular_app_logo_youtube_3225180.png" pagespeed_url_hash="3435424478" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+                            </a>    
                         </div>
                     </div>
                 </div>

@@ -9,19 +9,12 @@ class Provider extends Component{
         email: '',
     }
 
-    //onclick do something hereB
-
     render(){ 
         return (
             <div id="home">     
                 <section className="firstSection">
                     <div className="container">
                         <div className="row">  
-                            <div className="col-lg-6 intro">
-                                <h1>"Join the party and start earning"</h1>
-                                <p>-Kidian</p>  
-                            </div>
-
                             <div className="col-lg-6 register">
                                 <div className="row">  
                                     <div className="card card-body registerCard">
@@ -45,21 +38,25 @@ class Provider extends Component{
                                             <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
                                         </div>
 
-                                        <button type="submit" className="btn btn-danger btn-block">LET'S PARTY</button> 
+                                        <button type="submit" className="btn btn-primary btn-block">LET'S PARTY</button> 
                                     </div>
                                 </div> 
-                            </div>      
+                            </div> 
+
+                            <div className="col-lg-6 intro">
+                                <h1>"Join the party and start earning"</h1>
+                                <h4>-Kidian</h4>  
+                            </div>
                         </div>    
                     </div>         
                 </section>
 
-                <section className="container secondSection">
-
+                <div className="secondSection">
                     <h2>What is Kidian Experiences</h2>
                     <p>
                         Kidian is an app that connects the best birthday party venues, entertainers, and vendors with people interested in booking birthday parties. We do this by empowering local businesses and in turn, generating new ways for people to earn, work, and live.
-                    </p>
-                </section>
+                    </p> 
+                </div>
                     
                 {/* 
                 <section className="thirdSection">
@@ -71,8 +68,8 @@ class Provider extends Component{
                     </div>
                 </section> 
                 */}
-            
-                <section className="container fourthSection">
+
+                <section className="fourthSection">
                     <h2>How does Kidan Work</h2>
                     
                     <div className="row">
@@ -82,13 +79,14 @@ class Provider extends Component{
                         </div>
                         
                         <div className="column">
-                            <img className="findImg" src="/img/graphics/001.png" />
+                            <img className="findImg" src="/img/graphics/001.png" alt="none"/>
                         </div>
                     </div>
 
-                    <div className="row">
+
+                    <div className="row secondRow">
                         <div className="column">
-                            <img className="exploreImg" src="/img/graphics/002.png" />
+                            <img className="exploreImg" src="/img/graphics/002.png" alt="none"/>
                         </div>
                         
                         <div className="column explore">
@@ -104,13 +102,13 @@ class Provider extends Component{
                         </div>
                         
                         <div className="column">
-                            <img className="cashoutImg" src="/img/graphics/003.png" />
+                            <img className="cashoutImg" src="/img/graphics/003.png" alt="none"/>
                         </div>
                     </div>
                 </section>
 
                 <section className="fifthhSection">
-                    <div className="container">
+                    <div className="fifth container">
                         <h2>Our Partners</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet
@@ -120,7 +118,7 @@ class Provider extends Component{
                     <div className="provider"></div>
                 </section>
 
-                <section className="container sixthSection"> 
+                <section className="sixthSection"> 
                     <div className="row">
                         <div className="signup-steps col-lg-6">
                             <ul className="signup-lists">
@@ -161,7 +159,7 @@ class Provider extends Component{
                                     <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
                                 </div>
 
-                                <button type="submit" className="btn btn-danger btn-block">LET'S PARTY</button> 
+                                <button type="submit" className="btn btn-primary btn-block">LET'S PARTY</button> 
                             </div>
                         </div>
                     </div>
