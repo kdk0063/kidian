@@ -1,5 +1,8 @@
 import React,{ Component } from 'react';
 import '../css/Home.css';
+import HomeComp from './HomeComp';
+import Maps from './Maps.jsx';
+
 
 class Home extends Component{
 
@@ -17,7 +20,7 @@ class Home extends Component{
                 </div>
             
                 <div id="first-body">
-                    <div className="container"> first </div>
+                    <HomeComp> </HomeComp>
                 </div>
 
                 <div id="second-body">
@@ -27,6 +30,11 @@ class Home extends Component{
                 <div id="third-body">
                     <div className="container"> third </div>
                 </div>
+
+                <div> 
+                    <Maps></Maps>
+                </div>
+
             </div>     
         )    
     }

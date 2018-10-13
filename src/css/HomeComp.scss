@@ -1,0 +1,24 @@
+#firstComp{ 
+    margin: 50px;
+    
+    .contentTitle{
+        margin: 50px auto 50px auto;
+    }
+
+    .card{
+        width: 16em;
+        margin-bottom: 35px;
+    }
+
+    .reviewStars{
+        .fa.fa-star.checked{
+            color: #388288
+        }
+
+        .fa-star{
+            color: white;
+        }
+    }
+
+
+}

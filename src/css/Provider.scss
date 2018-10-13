@@ -4,29 +4,51 @@
   
   .firstSection {
     background-image: url("/img/photos/Pierre-TinyTowne.jpg");
-    position: relative;
+    /*
+    background-position: calc(35% - 50px) 50%;
+    */
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 850px;
 
-    h1 {
-    width: 350px; 
-    text-align: right;
-    float: right;
-    margin-right: 40px;
-    }
 
-    h4{
-    margin: 20px 60px auto 300px;
-    float: right;
-    }
     .intro {
-      margin-top: 350px;
+      padding-top: 120px;
       color: #ffffff;
+    
+      h2 {
+        width: 350px; 
+        text-align: center;
+        margin-right: 40px;
+      }
+
+      h5{
+        width: 300px;
+        margin-top: 10px;
+        text-align: right;
+      }
+    }
+
+    .column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
     .register {
-      margin-top: 300px;
-    }
+      padding-top: 80px;
+      
+      
+      .card{
+        width: 400px;
+        height: auto;
+        float: right;
+        margin-right: 50px;
+      }
+    }  
   }
 
   .btn-primary {
@@ -36,9 +58,9 @@
   }
 
   .secondSection  {
-    min-height: 450px;
+    min-height: 40px;
     text-align:center;
-    padding: 200px 180px;
+    padding: 160px 180px;
     background-color:#f4f4f4;
     color:#666;
   }
@@ -160,17 +182,39 @@
 
   @media (max-width: 990px){
     .firstSection {
-      background-size: contain;
-      min-height: 600px;
+      -webkit-background-size:contain;
+      -moz-background-size:contain;
+      -o-background-size:contain;
+      background-size:contain;
+      background-repeat:no-repeat;
+      background-position: center top;
 
-      .register {
-      margin-top: 200px;
-      }
 
       .intro {
-        margin-top: 50px;
-        color: #000000;
+        float: right;
+
+        h2 {
+          margin-top: -70px;
+          text-align: right;
+          float: right;
+        }
+
+        h5 {
+          text-align: right;
+          float: right;
+        }
+    }
+      
+      .register{
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
       }
+    }
+
+    .secondSection{
+      padding-top: 250px;
     }
 
     #home .thirdSection .contents {

@@ -1,0 +1,11 @@
+#firstComp {
+  margin: 50px; }
+  #firstComp .contentTitle {
+    margin: 50px auto 50px auto; }
+  #firstComp .card {
+    width: 16em;
+    margin-bottom: 35px; }
+  #firstComp .reviewStars .fa.fa-star.checked {
+    color: #388288; }
+  #firstComp .reviewStars .fa-star {
+    color: white; }

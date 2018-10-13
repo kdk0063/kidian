@@ -12,43 +12,40 @@ class Provider extends Component{
     render(){ 
         return (
             <div id="home">     
-                <section className="firstSection">
-                    <div className="container">
-                        <div className="row">  
-                            <div className="col-lg-6 register">
-                                <div className="row">  
-                                    <div className="card card-body registerCard">
-                                        <h3 className="text-center">Sign-Up</h3>
+                <section className="firstSection"> 
+                    <div className="row"> 
+                        <div className="col-lg-6 intro">
+                            <h2>"Join the party and start earning"</h2>
+                            <h5>-Kidian</h5>  
+                        </div>
 
-                                        <div className="form-group">
-                                            <input type="text" className="form-control" value={this.state.business} onChange={e => this.setState({ business: e.target.value })}  placeholder="Business Name"/>
-                                        </div>
+                        <div className="col-sm-6 register">
+                            <div className="card card-body registerCard">
+                                <h3 className="text-center">Sign-Up</h3>
 
-                                        <div className="form-row">  
-                                            <div className="form-group col-md-6">
-                                                <input type="text" className="form-control" value={this.setState.contactName} onChange={ e=> this.setState ({ contactName: e.target.value })} placeholder="Contact Name"/>
-                                            </div>
+                                <div className="form-group">
+                                    <input type="text" className="form-control" value={this.state.business} onChange={e => this.setState({ business: e.target.value })}  placeholder="Business Name"/>
+                                </div>
 
-                                            <div className="form-group col-md-6">
-                                                <input type="text" className="form-control" value={this.setState.phoneNumber} onChange={ e=> this.setState ({ phoneNumber: e.target.value })} placeholder="Phone Number"/>       
-                                            </div>
-                                        </div>
-
-                                        <div className="form-group">
-                                            <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
-                                        </div>
-
-                                        <button type="submit" className="btn btn-primary btn-block">LET'S PARTY</button> 
+                                <div className="form-row">  
+                                    <div className="form-group col-sm-6">
+                                        <input type="text" className="form-control" value={this.setState.contactName} onChange={ e=> this.setState ({ contactName: e.target.value })} placeholder="Contact Name"/>
                                     </div>
-                                </div> 
-                            </div> 
 
-                            <div className="col-lg-6 intro">
-                                <h1>"Join the party and start earning"</h1>
-                                <h4>-Kidian</h4>  
+                                    <div className="form-group col-sm-6">
+                                        <input type="text" className="form-control" value={this.setState.phoneNumber} onChange={ e=> this.setState ({ phoneNumber: e.target.value })} placeholder="Phone Number"/>       
+                                    </div>
+                                </div>
+
+                                <div className="form-group">
+                                    <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
+                                </div>
+
+                                <button type="submit" className="btn btn-primary btn-block">LET'S PARTY</button> 
                             </div>
-                        </div>    
-                    </div>         
+                           
+                        </div>                              
+                    </div> 
                 </section>
 
                 <div className="secondSection">
