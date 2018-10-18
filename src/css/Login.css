@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-
-class Login extends Component{
-    
-    render (){
-        return (
-            <div>
-
-            </div>
-        )
-    }
+button{
+  width: 80px;
+  height: 40px;
+  margin: 15px;
 }
-export default Login;
+.like-button{
+  background-color: black;
+  color: white;
+}
+
+.liked{
+  background-color: white;
+  color: black;
+}

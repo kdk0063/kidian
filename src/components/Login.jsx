@@ -1,22 +1,30 @@
 import React, { Component } from "react";
+import '../css/Login.css';
 
 class Login extends Component{
-    constructor() {
+    constructor(){
         super();
+
         this.state = {
-            name: 'Maxx',
-            id: '101'
+             colorChange: true
         }
-    }
-    render()
-        {
-            setTimeout(()=>{this.setState({name:'Jaeha', id:'222'})},2000)
-            return (              
-                   <div>                  
-                     <h1>Hello {this.state.name}</h1>                
-                     <h2>Your Id is {this.state.id}</h2>
-                   </div>
-            );
-        }
+   }
+
+   changeColor(){
+       this.setState({colorChange: !this.state.colorChange})
+   }
+
+   render(){
+       let btn_class = this.state.colorChange ? "like-button" : "liked";
+
+       return (
+            <div>
+                <button className={btn_class}
+                        onClick={this.changeColor.bind(this)}>
+                          Button
+                 </button>
+            </div>
+       )
+   }
 }
 export default Login;

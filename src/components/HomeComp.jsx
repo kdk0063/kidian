@@ -47,7 +47,7 @@ class HomeComp extends Component{
                         <InfoComp></InfoComp>
 
                         <div>
-                            <a href="#" className="showAll">Show all (x)</a>
+                            <a href="#" className="showAll">Show all (30+) > </a>
                         </div>
                     </div>
                 </section>
@@ -62,7 +62,7 @@ class HomeComp extends Component{
                         <InfoComp></InfoComp>
 
                         <div>
-                            <a href="#" className="showAll">Show all (x)</a>
+                        <a href="#" className="showAll">Show all (30+) > </a>
                         </div>
                     </div>        
                 </section>
