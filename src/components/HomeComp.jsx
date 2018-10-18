@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../css/HomeComp.css';
 import InfoComp from './InfoComp';
+import { Link } from 'react-router-dom';
+
 
 class HomeComp extends Component{
 
@@ -32,7 +34,7 @@ class HomeComp extends Component{
                         <InfoComp></InfoComp>
 
                         <div>
-                            <a href="#" className="showAll">Show all (30+) > </a>
+                            <Link to="/InfoLanding" className="showAll">Show all (30+) > </Link>
                         </div>                     
                     </div>
                 </section>
@@ -47,7 +49,7 @@ class HomeComp extends Component{
                         <InfoComp></InfoComp>
 
                         <div>
-                            <a href="#" className="showAll">Show all (30+) > </a>
+                            <Link to="/InfoLanding" className="showAll">Show all (30+) > </Link>
                         </div>
                     </div>
                 </section>
@@ -62,7 +64,7 @@ class HomeComp extends Component{
                         <InfoComp></InfoComp>
 
                         <div>
-                        <a href="#" className="showAll">Show all (30+) > </a>
+                            <Link to="/InfoLanding" className="showAll">Show all (30+) > </Link>
                         </div>
                     </div>        
                 </section>

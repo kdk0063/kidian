@@ -5,6 +5,8 @@ import Home from './components/Home';
 import Provider from './components/Provider';
 import Projects from './components/Parents';
 import Login from './components/Login';
+import InfoLanding from './components/InfoLanding';
+
 
 class Routes extends Component {
     render(){
@@ -16,6 +18,7 @@ class Routes extends Component {
                     <Route exact path='/Provider' component={Provider}/>
                     <Route exact path='/Parents' component={Projects}/>
                     <Route exact path='/Login' component={Login}/>
+                    <Route exact path='/InfoLanding' component={InfoLanding}/>
                 </Switch> 
             </div>
         )
