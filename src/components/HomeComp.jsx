@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/HomeComp.css';
+import InfoComp from './InfoComp';
 
 class HomeComp extends Component{
 
@@ -9,94 +10,63 @@ class HomeComp extends Component{
                 <div className="container">
                     <div className="contentTitle">
                         <h3>
-                            <div>Top-rated experiences</div>
+                            <div>All Party Products</div>
                         </h3>
                         <h6>
-                            <div>Highly reviwed by parents and kids</div>
+                            <span className="vendorIcon flaticon-birthday-1"> <span className="catVendors"> Vendors </span> </span>
+                            <span className="mobileIcon flaticon-smartphone-2"> <span className="catMobiles"> Mobiles </span> </span>
+                            <span className="cakeIcon flaticon-birthday-3"> 
+                            <span className="catCakes"> Cakes </span> </span>
+                            
                         </h6>
                     </div>
-
-                    <div className="row">
-                        <div className="col-sm-4">
-                            <div className="card">
-                                <img className="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap"></img>
-                                <div className="card-body">
-                                    <h5 className="card-title">Experience with a Sloth</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted category">Wildlife Spotting</h6>
-                                    <p className="card-text">$22 per person</p>
-                                    <a href="#" className="card-link">Card link</a>
-                                    <a href="#" className="card-link">
-                                        <span className="fa fa-star checked"></span>
-                                        <span className="fa fa-star checked"></span>
-                                        <span className="fa fa-star checked"></span>
-                                        <span className="fa fa-star"></span>
-                                        <span className="fa fa-star"></span>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="card">
-                                <img className="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap"></img>
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" className="card-link">Card link</a>
-                                    <a href="#" className="card-link">Another link</a>
-                                </div>
-                            </div>
-
-                            <div className="card">
-                                <img className="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap"></img>
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" className="card-link">Card link</a>
-                                    <a href="#" className="card-link">Another link</a>
-                                </div>
-                            </div>
-
+                </div>
+            
+                <section id="vendors"> 
+                    <div className="container">
+                        <div className="contentTitle">
+                            <h3>
+                                <div>Top-Rated Vendors</div>
+                            </h3>
                         </div>
+                        <InfoComp></InfoComp>
 
-                        <div className="col-sm-4">
+                        <div>
+                            <a href="#" className="showAll">Show all (30+) > </a>
+                        </div>                     
+                    </div>
+                </section>
 
-                            <div className="card">
-                                <img className="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap"></img>
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" className="card-link">Card link</a>
-                                    <a href="#" className="card-link">Another link</a>
-                                </div>
-                            </div>  
+                <section id="mobiles"> 
+                    <div className="container">
+                        <div className="contentTitle">
+                            <h3>
+                                <div>Top-Rated Mobile</div>
+                            </h3>
+                        </div>
+                        <InfoComp></InfoComp>
 
-                            <div className="card">
-                                <img className="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap"></img>
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" className="card-link">Card link</a>
-                                    <a href="#" className="card-link">Another link</a>
-                                </div>
-                            </div>
-
-                            <div className="card">
-                                <img className="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap"></img>
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" className="card-link">Card link</a>
-                                    <a href="#" className="card-link">Another link</a>
-                                </div>
-                            </div>
-
+                        <div>
+                            <a href="#" className="showAll">Show all (x)</a>
                         </div>
                     </div>
-                </div>
+                </section>
+
+                <section id="cakes"> 
+                    <div className="container">
+                        <div className="contentTitle">
+                            <h3>
+                                <div>Top-Rated Cakes</div>
+                            </h3>
+                        </div>
+                        <InfoComp></InfoComp>
+
+                        <div>
+                            <a href="#" className="showAll">Show all (x)</a>
+                        </div>
+                    </div>        
+                </section>
+
             </div>
         )
     }

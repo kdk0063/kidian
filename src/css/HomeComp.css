@@ -1,11 +1,75 @@
 #firstComp {
-  margin: 50px; }
+  margin: 35px;
+  /*
+    
+    @media screen and (max-witdh: 1000px){
+        .container .contents{
+            flex-flow: row wrap;
+        }
+    }
+
+    @media screen and (max-witdh: 1200px){
+        .contents{
+            flex-flow: row wrap;
+        }
+    }  */ }
   #firstComp .contentTitle {
     margin: 50px auto 50px auto; }
-  #firstComp .card {
-    width: 16em;
-    margin-bottom: 35px; }
-  #firstComp .reviewStars .fa.fa-star.checked {
-    color: #388288; }
-  #firstComp .reviewStars .fa-star {
-    color: white; }
+  #firstComp section {
+    margin-bottom: 50px; }
+  #firstComp h3 {
+    font-family: 'Lato', sans-serif; }
+  #firstComp h6 {
+    margin-top: 35px; }
+  #firstComp .showAll {
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 18px; }
+  #firstComp .vendorIcon,
+  #firstComp .mobileIcon,
+  #firstComp .cakeIcon {
+    margin-right: 25px;
+    border-radius: 50px;
+    padding: 20px; }
+  #firstComp .vendorIcon:hover,
+  #firstComp .mobileIcon:hover,
+  #firstComp .cakeIcon:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15); }
+  #firstComp .catVendors,
+  #firstComp .catCakes {
+    padding-left: 10px;
+    font-style: italic; }
+  #firstComp #mobile .card::before, #firstComp #mobile .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none; }
+  #firstComp #mobile .card::before {
+    transform-origin: left top; }
+  #firstComp #mobile .card::after {
+    transform-origin: left bottom; }
+  #firstComp #mobile .card:hover::before, #firstComp #mobile .card:hover::after, #firstComp #mobile .card:focus::before, #firstComp #mobile .card:focus::after {
+    transform: scale3d(1, 1, 1); }
+  #firstComp #cakes .card::before, #firstComp #cakes .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none; }
+  #firstComp #cakes .card::before {
+    transform-origin: left top; }
+  #firstComp #cakes .card::after {
+    transform-origin: right bottom; }
+  #firstComp #cakes .card:hover::before, #firstComp #cakes .card:hover::after, #firstComp #cakes .card:focus::before, #firstComp #cakes .card:focus::after {
+    transform: scale3d(1, 1, 1); }
