@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import '../css/Provider.css';
 
 class Provider extends Component{
-    state ={
+    state={
         business: '',
         contactName: '',
         phoneNumber: '',
@@ -14,14 +14,13 @@ class Provider extends Component{
             <div id="home">     
                 <section className="firstSection"> 
                     <div className="row"> 
-                        <div className="col-lg-6 intro">
-                            <h2>"Join the party and start earning"</h2>
-                            <h5>-Kidian</h5>  
+                        <div className="col-sm-6 intro">
+                            <h3>"More party means more business and more engagement" <span>-Pierre Maalouf, Tiny Towne</span></h3>
                         </div>
 
                         <div className="col-sm-6 register">
                             <div className="card card-body registerCard">
-                                <h3 className="text-center">Sign-Up</h3>
+                                <h3 className="text-center">Join Kidian Today</h3>
 
                                 <div className="form-group">
                                     <input type="text" className="form-control" value={this.state.business} onChange={e => this.setState({ business: e.target.value })}  placeholder="Business Name"/>
@@ -41,7 +40,7 @@ class Provider extends Component{
                                     <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
                                 </div>
 
-                                <button type="submit" className="btn btn-primary btn-block">LET'S PARTY</button> 
+                                <button type="submit" className="btn btn-primary btn-block">Get Started</button> 
                             </div>
                            
                         </div>                              
@@ -49,10 +48,12 @@ class Provider extends Component{
                 </section>
 
                 <div className="secondSection">
-                    <h2>What is Kidian Experiences</h2>
-                    <p>
-                        Kidian is an app that connects the best birthday party venues, entertainers, and vendors with people interested in booking birthday parties. We do this by empowering local businesses and in turn, generating new ways for people to earn, work, and live.
-                    </p> 
+                    <div className="container secondContent">
+                        <h2>What is Kidian Experiences</h2>
+                        <p>
+                            Kidian is an app that connects the best birthday party venues, entertainers, and vendors with people interested in booking birthday parties. We do this by empowering local businesses and in turn, generating new ways for people to earn, work, and live.
+                        </p> 
+                    </div>
                 </div>
                     
                 {/* 
@@ -66,51 +67,70 @@ class Provider extends Component{
                 </section> 
                 */}
 
-                <section className="fourthSection">
-                    <h2>How does Kidan Work</h2>
+                <div className="fourthSection">
+                    <h2>How does Kidian Work</h2>
                     
-                    <div className="row">
-                        <div className="column find">
-                            <h2>FIND</h2>
-                            <p>Parents find your business</p>
+                    <section>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <div className="find">
+                                        <h4>Parents find your business</h4>
+                                        <p>Kidian helps you create awareness and reach more customers</p>
+                                    </div>
+                                </div>
+                                
+                                <div className="col-sm-6">
+                                    <img className="findImg" src="/img/graphics/001.png" alt="none"/>
+                                </div>
+                            </div>
                         </div>
-                        
-                        <div className="column">
-                            <img className="findImg" src="/img/graphics/001.png" alt="none"/>
-                        </div>
-                    </div>
+                    </section>
 
+                    <section>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <img className="exploreImg" src="/img/graphics/002.png" alt="none"/>
+                                </div>
 
-                    <div className="row secondRow">
-                        <div className="column">
-                            <img className="exploreImg" src="/img/graphics/002.png" alt="none"/>
+                                <div className="col-sm-6">
+                                    <div className="explore">
+                                        <h4>Parents explore and book your packages</h4>
+                                        <p>Set a schedule that works for your business. Pick your availability and price, and manage all the details with a convenient website.</p>
+                                    </div>
+                                </div>            
+                            </div>
                         </div>
-                        
-                        <div className="column explore">
-                            <h2>EXPLORE</h2>
-                            <p>Parents explore your packages and book your business</p>
-                        </div>
-                    </div>
+                    </section>
 
-                    <div className="row">
-                        <div className="column cashout">
-                            <h2>CASHOUT</h2>
-                            <p>Accept bookings and earn money</p>
+                    <section>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <div className="cashout">
+                                        <h4>Cashout</h4>
+                                        <p>Accept bookings and earn money.</p>
+                                    </div>
+                                </div>
+                                
+                                <div className="col-sm-6">
+                                    <img className="cashoutImg" src="/img/graphics/003.png" alt="none"/>
+                                </div>
+                            </div>
                         </div>
-                        
-                        <div className="column">
-                            <img className="cashoutImg" src="/img/graphics/003.png" alt="none"/>
-                        </div>
-                    </div>
-                </section>
+                    </section>
+
+                </div>
 
                 <section className="fifthhSection">
                     <div className="fifth container">
-                        <h2>Our Partners</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet
-                            tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium,
-                        </p>
+                        <div className="providersContent">
+                            <h2>Providers Loves Us</h2>
+                            <p>
+                                We'are partnering with 150+ local businesses in the Greater Atlanta area to build their business.
+                            </p>
+                        </div>
                     </div>
                     <div className="provider"></div>
                 </section>

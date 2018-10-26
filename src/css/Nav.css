@@ -1,7 +1,6 @@
 .navbar {
   height: 65px;
   width: 100%;
-  position: fixed;
   z-index: 1; }
 
 .navbar.transparent {
@@ -36,9 +35,8 @@
   margin: 10px; }
 
 .navlinks:hover {
-  padding: 10px;
   color: #2AAEFF;
-  border: 1px solid #2AAEFF; }
+  border-bottom: 1px solid #2AAEFF; }
 
 @media (max-width: 990px) {
   .navbar {

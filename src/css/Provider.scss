@@ -7,8 +7,6 @@
     /*
     background-position: calc(35% - 50px) 50%;
     */
-
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,21 +14,21 @@
     background-repeat:no-repeat;
     background-size: cover;
 
-
     .intro {
-      padding-top: 120px;
-      color: #ffffff;
-    
-      h2 {
-        width: 350px; 
-        text-align: center;
-        margin-right: 40px;
-      }
+      h3 {
+        width: 280px;
+        left: 50px;
+        position: relative;
+        padding-top: 120px;
+        color: #ffffff;
+        font-weight: bold;
 
-      h5{
-        width: 300px;
-        margin-top: 10px;
-        text-align: right;
+          span{
+            position: relatvie;
+            font-size: 15px;
+            float: left;
+            padding-top: 10px;
+          }
       }
     }
 
@@ -41,89 +39,74 @@
     .register {
       padding-top: 80px;
       
-      
       .card{
-        width: 400px;
-        height: auto;
+        max-width: 350px;
         float: right;
-        margin-right: 50px;
+        margin-right: 50px; 
+        margin-bottom: 25px;
       }
-    }  
-  }
 
-  .btn-primary {
-    background-color: #2AAEFF !important; 
-    border-color: #2AAEFF !important;
-    font-weight: 600;
+      .btn-primary {
+        background-color: #2AAEFF !important; 
+        border-color: #2AAEFF !important;
+        font-weight: 600;
+      } 
+    }  
   }
 
   .secondSection  {
     min-height: 40px;
     text-align:center;
-    padding: 160px 180px;
+    padding: 80px 140px;
     background-color:#f4f4f4;
     color:#666;
+
+    .secondContent{
+      max-width: 750px;
+      text-align: center;
+
+      p{
+        padding-top: 1px;
+      }
+    }
+
   }
 
   .thirdSection {
     .contents {
     display: grid;
     text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    /*fraction*/ 
+    grid-template-columns: 1fr 1fr 1fr; 
     }
   }
 
   .fourthSection{
     .row {
-      display: flex; }
-
-    .column {
-      flex: 50%;
-      text-align: center;
-    }
-
-    .secondRow{
-      background-color:#f4f4f4;
+      display: flex; 
     }
 
     h2 {
-      margin-top: 100px;
+      margin-top: 60px;
       text-align: center; 
     }
 
-    .find {
-      width: 300px;
-      max-width: 80%;
-      margin: auto;
-      position: relative; }
+    .find,
+    .explore,
+    .cashout {
+      padding: 80px 60px;
+      text-align: center;
+    }
     
-    .findImg {
-      width: 400px;
-      height: 580px; 
-    }
-
-    .explore {
-      width: 300px;
-      max-width: 80%;
-      margin: auto;
-      position: relative; 
-    }
-
+    .findImg,
     .exploreImg {
       width: 400px;
       height: 580px; 
-    }
-
-    .cashout {
-      width: 300px;
-      max-width: 80%;
-      margin: auto;
-      position: relative; 
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .cashoutImg {
-      width: 350px;
+      width: 520px;
       height: 400px;
     }
   }
@@ -131,13 +114,21 @@
   .fifthhSection {
     background-color: #f5f4f4; 
 
-    .fifth.container{
-      padding: 100px 120px;
-      text-align: center; 
+    .container{
+      max-width: 450px;
+    }
+
+    .providersContent{
+      h2{
+        padding-top: 40px;
+        text-align: center;
+      }
 
       p{
-        padding-top: 40px; 
+        padding-top: 20px; 
         margin-bottom: 20px;
+        text-align: center;
+        
       }
     }
 
@@ -150,7 +141,7 @@
       margin-bottom: 50px; 
     }
   }
-
+  
   .sixthSection{
     margin-top: 80px;
     margin-bottom: 100px;
@@ -188,41 +179,11 @@
       background-size:contain;
       background-repeat:no-repeat;
       background-position: center top;
-
-
-      .intro {
-        float: right;
-
-        h2 {
-          margin-top: -70px;
-          text-align: right;
-          float: right;
-        }
-
-        h5 {
-          text-align: right;
-          float: right;
-        }
     }
-      
-      .register{
-        margin-top: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        width: auto;
-      }
-    }
-
-    .secondSection{
-      padding-top: 250px;
-    }
-
+  
     #home .thirdSection .contents {
       /*breakpoint*/
       grid-template-columns: none; }
-
-    .cashoutImg {
-      display: none; }
 
     .sixthSection {
       .divider {
