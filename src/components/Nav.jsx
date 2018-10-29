@@ -49,7 +49,7 @@ class Nav extends Component {
                             </Link>   
                             */}                     
                             <Link className="nav-item navlinks" to='/Login'>
-                                Log in
+                                Login
                             </Link>
                         </div>
                     </div>

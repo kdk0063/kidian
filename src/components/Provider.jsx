@@ -14,34 +14,39 @@ class Provider extends Component{
             <div id="home">     
                 <section className="firstSection"> 
                     <div className="row"> 
-                        <div className="col-sm-6 intro">
-                            <h3>"More party means more business and more engagement" <span>-Pierre Maalouf, Tiny Towne</span></h3>
+                        <div className="col-lg-6 intro">
+                            <div className="introContent">
+                                <h3>"More party means more business and more engagement" <span>-Pierre Maalouf, Tiny Towne</span></h3>
+                            </div>
                         </div>
 
-                        <div className="col-sm-6 register">
-                            <div className="card card-body registerCard">
-                                <h3 className="text-center">Join Kidian Today</h3>
+                        <div className="col-lg-6 register">
+                            <div className="card">
+                                <div className="signup-form">
+                                        <h3 className="card-title text-center">Join Kidian Today</h3>
+                                    <div className="card-body">
+                                        <div className="form-group">
+                                            <input type="text" className="form-control" value={this.state.business} onChange={e => this.setState({ business: e.target.value })}  placeholder="Business Name"/>
+                                        </div>
 
-                                <div className="form-group">
-                                    <input type="text" className="form-control" value={this.state.business} onChange={e => this.setState({ business: e.target.value })}  placeholder="Business Name"/>
-                                </div>
+                                        <div className="form-row">  
+                                            <div className="form-group col-sm-6">
+                                                <input type="text" className="form-control" value={this.setState.contactName} onChange={ e=> this.setState ({ contactName: e.target.value })} placeholder="Contact Name"/>
+                                            </div>
 
-                                <div className="form-row">  
-                                    <div className="form-group col-sm-6">
-                                        <input type="text" className="form-control" value={this.setState.contactName} onChange={ e=> this.setState ({ contactName: e.target.value })} placeholder="Contact Name"/>
+                                            <div className="form-group col-sm-6">
+                                                <input type="text" className="form-control" value={this.setState.phoneNumber} onChange={ e=> this.setState ({ phoneNumber: e.target.value })} placeholder="Phone Number"/>       
+                                            </div>
+                                        </div>
+
+                                        <div className="form-group">
+                                            <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
+                                        </div>
+
+                                        <button type="submit" className="btn btn-primary btn-block"> Get Started</button> 
                                     </div>
-
-                                    <div className="form-group col-sm-6">
-                                        <input type="text" className="form-control" value={this.setState.phoneNumber} onChange={ e=> this.setState ({ phoneNumber: e.target.value })} placeholder="Phone Number"/>       
-                                    </div>
-                                </div>
-
-                                <div className="form-group">
-                                    <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
-                                </div>
-
-                                <button type="submit" className="btn btn-primary btn-block">Get Started</button> 
                             </div>
+                        </div>   
                            
                         </div>                              
                     </div> 
@@ -56,18 +61,38 @@ class Provider extends Component{
                     </div>
                 </div>
                     
-                {/* 
                 <section className="thirdSection">
-                    <h2>Why Kidian</h2>
-                    <div className="container contents">
-                        <div className="">1</div>
-                        <div className="">2</div>
-                        <div className="">3</div>
-                    </div>
-                </section> 
-                */}
+                    <div className="container">
+                        <div className="row ">
+                            <div className="card" style={{width: '18rem'}}>
+                                <span className="flaticon-responsive-1"> </span>
+                                <div className="card-body">
+                                    <h4 className="card-title">Parents find your business</h4>
+                                    <p className="card-text">Kidian helps you create awareness and reach more customers</p>
+                                </div>
+                            </div>
 
-                <div className="fourthSection">
+                            <div className="card" style={{width: '18rem'}}>
+                                <span className="flaticon-balloons"></span>
+                                <div className="card-body">
+                                    <h4 className="card-title">Parents explore and book your packages</h4>
+                                    <p className="card-text">Set a schedule that works for your business. Pick your availability and price, and manage all the details with a convenient website</p>
+                                </div>
+                            </div>
+
+                            <div className="card" style={{width: '18rem'}}>
+                                <span className="flaticon-payment-method"> </span>
+                                <div className="card-body">
+                                    <h4 className="card-title">Simply cashout!</h4>
+                                    <p className="card-text">Accept bookings and earn money</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </section> 
+                          
+{/*
+                <div classNameName="fourthSection">
                     <h2>How does Kidian Work</h2>
                     
                     <section>
@@ -75,7 +100,7 @@ class Provider extends Component{
                             <div className="row">
                                 <div className="col-sm-6">
                                     <div className="find">
-                                        <h4>Parents find your business</h4>
+                                        <h2>Parents find your business</h2>
                                         <p>Kidian helps you create awareness and reach more customers</p>
                                     </div>
                                 </div>
@@ -91,14 +116,14 @@ class Provider extends Component{
                         <div className="container">
                             <div className="row">
                                 <div className="col-sm-6">
-                                    <img className="exploreImg" src="/img/graphics/002.png" alt="none"/>
+                                    <div className="explore">
+                                        <h2>Parents explore and book your packages</h2>
+                                        <p>Set a schedule that works for your business. Pick your availability and price, and manage all the details with a convenient website.</p>
+                                    </div>
                                 </div>
 
                                 <div className="col-sm-6">
-                                    <div className="explore">
-                                        <h4>Parents explore and book your packages</h4>
-                                        <p>Set a schedule that works for your business. Pick your availability and price, and manage all the details with a convenient website.</p>
-                                    </div>
+                                    <img className="exploreImg" src="/img/graphics/002.png" alt="none"/>
                                 </div>            
                             </div>
                         </div>
@@ -109,7 +134,7 @@ class Provider extends Component{
                             <div className="row">
                                 <div className="col-sm-6">
                                     <div className="cashout">
-                                        <h4>Cashout</h4>
+                                        <h2>Cashout</h2>
                                         <p>Accept bookings and earn money.</p>
                                     </div>
                                 </div>
@@ -120,11 +145,11 @@ class Provider extends Component{
                             </div>
                         </div>
                     </section>
-
                 </div>
+ */}
 
                 <section className="fifthhSection">
-                    <div className="fifth container">
+                    <div className="container">
                         <div className="providersContent">
                             <h2>Providers Loves Us</h2>
                             <p>
@@ -132,7 +157,7 @@ class Provider extends Component{
                             </p>
                         </div>
                     </div>
-                    <div className="provider"></div>
+                    <img src="/img/graphics/providerlogo.png" className="provider"></img>
                 </section>
 
                 <section className="sixthSection"> 
@@ -156,19 +181,19 @@ class Provider extends Component{
                         
                         <div className="divider col-lg-6">
                             <div className="signup-form">
-                                <h3 className="text-center">Sign-Up</h3>
+                                <h3 className="text-center">Join Kidian Today</h3>
 
                                 <div className="form-group">
                                     <input type="text" className="form-control" value={this.state.business} onChange={e => this.setState({ business: e.target.value })}  placeholder="Business Name"/>
                                 </div>
 
                                 <div className="form-row">  
-                                    <div className="form-group col-md-6">
-                                        <input type="text" className="form-control" value={this.state.contactName} onChange={e=> this.setState ({ contactName: e.target.value })} placeholder="Contact Name"/>
+                                    <div className="form-group col-sm-6">
+                                        <input type="text" className="form-control" value={this.setState.contactName} onChange={ e=> this.setState ({ contactName: e.target.value })} placeholder="Contact Name"/>
                                     </div>
 
-                                    <div className="form-group col-md-6">
-                                        <input type="text" className="form-control" value={this.state.phoneNumber} onChange={e=> this.setState ({ phoneNumber: e.target.value })} placeholder="Phone Number"/>       
+                                    <div className="form-group col-sm-6">
+                                        <input type="text" className="form-control" value={this.setState.phoneNumber} onChange={ e=> this.setState ({ phoneNumber: e.target.value })} placeholder="Phone Number"/>       
                                     </div>
                                 </div>
 
@@ -176,7 +201,7 @@ class Provider extends Component{
                                     <input type="text" className="form-control" value={this.state.email} onChange={e => this.setState({ email: e.target.value })}  placeholder="Email"/>
                                 </div>
 
-                                <button type="submit" className="btn btn-primary btn-block">LET'S PARTY</button> 
+                                <button type="submit" className="btn btn-primary btn-block"> Get Started</button> 
                             </div>
                         </div>
                     </div>

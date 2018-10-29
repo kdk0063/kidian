@@ -42,37 +42,3 @@
     font-style: italic; }
   #firstComp .catMobiles {
     font-style: italic; }
-  #firstComp #mobile .card::before, #firstComp #mobile .card::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: scale3d(0, 0, 1);
-    transition: transform .3s ease-out 0s;
-    background: rgba(255, 255, 255, 0.1);
-    content: '';
-    pointer-events: none; }
-  #firstComp #mobile .card::before {
-    transform-origin: left top; }
-  #firstComp #mobile .card::after {
-    transform-origin: left bottom; }
-  #firstComp #mobile .card:hover::before, #firstComp #mobile .card:hover::after, #firstComp #mobile .card:focus::before, #firstComp #mobile .card:focus::after {
-    transform: scale3d(1, 1, 1); }
-  #firstComp #cakes .card::before, #firstComp #cakes .card::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: scale3d(0, 0, 1);
-    transition: transform .3s ease-out 0s;
-    background: rgba(255, 255, 255, 0.1);
-    content: '';
-    pointer-events: none; }
-  #firstComp #cakes .card::before {
-    transform-origin: left top; }
-  #firstComp #cakes .card::after {
-    transform-origin: right bottom; }
-  #firstComp #cakes .card:hover::before, #firstComp #cakes .card:hover::after, #firstComp #cakes .card:focus::before, #firstComp #cakes .card:focus::after {
-    transform: scale3d(1, 1, 1); }

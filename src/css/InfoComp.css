@@ -1,10 +1,16 @@
-#contentCard {
+#contentCard,
+#mobile
+#cakes {
   padding-left: 0; }
-  #contentCard .card {
+  #contentCard .card,
+  #mobile
+#cakes .card {
     margin-bottom: 25px;
     border: none;
     transition: transform .3s; }
-    #contentCard .card::after {
+    #contentCard .card::after,
+    #mobile
+#cakes .card::after {
       position: absolute;
       top: 0;
       left: 0;
@@ -15,11 +21,23 @@
       content: '';
       opacity: 0;
       z-index: -1; }
-    #contentCard .card:hover, #contentCard .card:focus {
+    #contentCard .card:hover, #contentCard .card:focus,
+    #mobile
+#cakes .card:hover,
+    #mobile
+#cakes .card:focus {
       transform: scale3d(1.006, 1.006, 1); }
-      #contentCard .card:hover::after, #contentCard .card:focus::after {
+      #contentCard .card:hover::after, #contentCard .card:focus::after,
+      #mobile
+#cakes .card:hover::after,
+      #mobile
+#cakes .card:focus::after {
         opacity: 1; }
-    #contentCard .card h6 {
+    #contentCard .card h6,
+    #mobile
+#cakes .card h6 {
       margin: 0 !important; }
-    #contentCard .card .card-body {
+    #contentCard .card .card-body,
+    #mobile
+#cakes .card .card-body {
       padding: 5px 5px 5px 0px; }

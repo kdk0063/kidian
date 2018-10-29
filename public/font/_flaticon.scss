@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 18/10/2018 03:02
+    Creation date: 29/10/2018 18:52
     */
 
     @font-face {
@@ -36,26 +36,40 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-birthday-3:before { content: "\f100"; }
-.flaticon-birthday:before { content: "\f101"; }
-.flaticon-birthday-1:before { content: "\f102"; }
-.flaticon-birthday-2:before { content: "\f103"; }
-.flaticon-flyer:before { content: "\f104"; }
-.flaticon-smartphone:before { content: "\f105"; }
-.flaticon-smartphone-1:before { content: "\f106"; }
-.flaticon-ui:before { content: "\f107"; }
-.flaticon-smartphone-2:before { content: "\f108"; }
-.flaticon-placeholder:before { content: "\f109"; }
-.flaticon-shop:before { content: "\f10a"; }
+    .flaticon-payment-method:before { content: "\f100"; }
+.flaticon-money:before { content: "\f101"; }
+.flaticon-map:before { content: "\f102"; }
+.flaticon-map-1:before { content: "\f103"; }
+.flaticon-news:before { content: "\f104"; }
+.flaticon-confetti-2:before { content: "\f105"; }
+.flaticon-cake:before { content: "\f106"; }
+.flaticon-balloons:before { content: "\f107"; }
+.flaticon-smartphone:before { content: "\f108"; }
+.flaticon-smartphone-1:before { content: "\f109"; }
+.flaticon-smartphone-2:before { content: "\f10a"; }
+.flaticon-smartphone-3:before { content: "\f10b"; }
+.flaticon-responsive-1:before { content: "\f10c"; }
+.flaticon-giftbox:before { content: "\f10d"; }
+.flaticon-box:before { content: "\f10e"; }
+.flaticon-box-1:before { content: "\f10f"; }
+.flaticon-heart-box:before { content: "\f110"; }
+.flaticon-dance:before { content: "\f111"; }
     
-    $font-Flaticon-birthday-3: "\f100";
-    $font-Flaticon-birthday: "\f101";
-    $font-Flaticon-birthday-1: "\f102";
-    $font-Flaticon-birthday-2: "\f103";
-    $font-Flaticon-flyer: "\f104";
-    $font-Flaticon-smartphone: "\f105";
-    $font-Flaticon-smartphone-1: "\f106";
-    $font-Flaticon-ui: "\f107";
-    $font-Flaticon-smartphone-2: "\f108";
-    $font-Flaticon-placeholder: "\f109";
-    $font-Flaticon-shop: "\f10a";
+    $font-Flaticon-payment-method: "\f100";
+    $font-Flaticon-money: "\f101";
+    $font-Flaticon-map: "\f102";
+    $font-Flaticon-map-1: "\f103";
+    $font-Flaticon-news: "\f104";
+    $font-Flaticon-confetti-2: "\f105";
+    $font-Flaticon-cake: "\f106";
+    $font-Flaticon-balloons: "\f107";
+    $font-Flaticon-smartphone: "\f108";
+    $font-Flaticon-smartphone-1: "\f109";
+    $font-Flaticon-smartphone-2: "\f10a";
+    $font-Flaticon-smartphone-3: "\f10b";
+    $font-Flaticon-responsive-1: "\f10c";
+    $font-Flaticon-giftbox: "\f10d";
+    $font-Flaticon-box: "\f10e";
+    $font-Flaticon-box-1: "\f10f";
+    $font-Flaticon-heart-box: "\f110";
+    $font-Flaticon-dance: "\f111";

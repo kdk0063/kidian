@@ -1,3 +1,6 @@
+  body{
+    color:#666;
+
   #home{
     overflow-x: hidden;
   }
@@ -24,7 +27,6 @@
         font-weight: bold;
 
           span{
-            position: relatvie;
             font-size: 15px;
             float: left;
             padding-top: 10px;
@@ -40,7 +42,7 @@
       padding-top: 80px;
       
       .card{
-        max-width: 350px;
+        min-width: 400px;
         float: right;
         margin-right: 50px; 
         margin-bottom: 25px;
@@ -58,28 +60,52 @@
     min-height: 40px;
     text-align:center;
     padding: 80px 140px;
-    background-color:#f4f4f4;
-    color:#666;
-
+    background-color:#F2FBFF;
+  
     .secondContent{
       max-width: 750px;
       text-align: center;
+
+      h2{
+        font-weight: 650;
+      }
 
       p{
         padding-top: 1px;
       }
     }
-
   }
 
   .thirdSection {
-    .contents {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr; 
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .card{
+      margin: 0 auto; 
+      float: none;
+      border: none;
+      text-align: center;
+    
+      .card-title{
+        font-weight: 650;
+        font-size: 1.3rem;
+      }
+
+    }
+
+    .flaticon-responsive-1,
+    .flaticon-balloons,
+    .flaticon-payment-method,{
+      margin: 0 auto; 
+    }
+
+    [class^="flaticon-"]:before{
+      font-size: 75px;  
+      margin-left: 0;
     }
   }
 
+  /*
   .fourthSection{
     .row {
       display: flex; 
@@ -93,8 +119,17 @@
     .find,
     .explore,
     .cashout {
-      padding: 80px 60px;
-      text-align: center;
+      max-width: 300px;
+
+      h2{
+        padding-top: 50px;
+        text-align: left;
+      }
+
+      p{
+        padding: 30px 20px 20px 0px;
+        text-align: left;
+      }
     }
     
     .findImg,
@@ -110,9 +145,10 @@
       height: 400px;
     }
   }
+  */
 
   .fifthhSection {
-    background-color: #f5f4f4; 
+    background-color: #F2FBFF; 
 
     .container{
       max-width: 450px;
@@ -122,29 +158,26 @@
       h2{
         padding-top: 40px;
         text-align: center;
+        font-weight: 650;
       }
 
       p{
         padding-top: 20px; 
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         text-align: center;
         
       }
     }
 
     .provider {
-      background-image: url("/img/graphics/providerlogo.png");
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      background-attachment: relative;
-      height: 400px;
-      margin-bottom: 50px; 
+      width: 100%;
+      height: auto;
     }
   }
   
   .sixthSection{
-    margin-top: 80px;
-    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-bottom: 80px;
 
     .column {
       display: grid;
@@ -180,6 +213,25 @@
       background-repeat:no-repeat;
       background-position: center top;
     }
+
+    .firstSection{
+      .intro{
+        display:none;
+      }
+
+      .register{
+        max-width: 400px;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .card{
+          float: none;
+          margin: 0 auto;
+          border: none;
+        }
+      }
+    }
   
     #home .thirdSection .contents {
       /*breakpoint*/
@@ -201,3 +253,22 @@
         grid-template-columns: none; } 
     }
   }
+
+
+/*
+  .firstSection{
+    .intro{
+        h3{
+          color: #666;
+          width: 300px;
+          font-size: 1.3rem;
+          span{
+            padding-top: 25px;
+            float: right;
+          }
+        }
+      float: none;
+      margin-top: 150px;
+    }
+    */
+}

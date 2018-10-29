@@ -1,141 +1,192 @@
-#home {
-  overflow-x: hidden; }
-
-.firstSection {
-  background-image: url("/img/photos/Pierre-TinyTowne.jpg");
+body {
+  color: #666;
   /*
+  .fourthSection{
+    .row {
+      display: flex; 
+    }
+
+    h2 {
+      margin-top: 60px;
+      text-align: center; 
+    }
+
+    .find,
+    .explore,
+    .cashout {
+      max-width: 300px;
+
+      h2{
+        padding-top: 50px;
+        text-align: left;
+      }
+
+      p{
+        padding: 30px 20px 20px 0px;
+        text-align: left;
+      }
+    }
+    
+    .findImg,
+    .exploreImg {
+      width: 400px;
+      height: 580px; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .cashoutImg {
+      width: 520px;
+      height: 400px;
+    }
+  }
+  */
+  /*
+  .firstSection{
+    .intro{
+        h3{
+          color: #666;
+          width: 300px;
+          font-size: 1.3rem;
+          span{
+            padding-top: 25px;
+            float: right;
+          }
+        }
+      float: none;
+      margin-top: 150px;
+    }
+    */ }
+  body #home {
+    overflow-x: hidden; }
+  body .firstSection {
+    background-image: url("/img/photos/Pierre-TinyTowne.jpg");
+    /*
     background-position: calc(35% - 50px) 50%;
     */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .firstSection .intro h3 {
-    width: 280px;
-    left: 50px;
-    position: relative;
-    padding-top: 120px;
-    color: #ffffff;
-    font-weight: bold; }
-    .firstSection .intro h3 span {
-      position: relatvie;
-      font-size: 15px;
-      float: left;
-      padding-top: 10px; }
-  .firstSection .column {
-    display: grid;
-    grid-template-columns: 1fr 1fr; }
-  .firstSection .register {
-    padding-top: 80px; }
-    .firstSection .register .card {
-      max-width: 350px;
-      float: right;
-      margin-right: 50px;
-      margin-bottom: 25px; }
-    .firstSection .register .btn-primary {
-      background-color: #2AAEFF !important;
-      border-color: #2AAEFF !important;
-      font-weight: 600; }
-
-.secondSection {
-  min-height: 40px;
-  text-align: center;
-  padding: 80px 140px;
-  background-color: #f4f4f4;
-  color: #666; }
-  .secondSection .secondContent {
-    max-width: 750px;
-    text-align: center; }
-    .secondSection .secondContent p {
-      padding-top: 1px; }
-
-.thirdSection .contents {
-  display: grid;
-  text-align: center;
-  grid-template-columns: 1fr 1fr 1fr; }
-
-.fourthSection .row {
-  display: flex; }
-
-.fourthSection h2 {
-  margin-top: 60px;
-  text-align: center; }
-
-.fourthSection .find,
-.fourthSection .explore,
-.fourthSection .cashout {
-  padding: 80px 60px;
-  text-align: center; }
-
-.fourthSection .findImg,
-.fourthSection .exploreImg {
-  width: 400px;
-  height: 580px;
-  margin-left: auto;
-  margin-right: auto; }
-
-.fourthSection .cashoutImg {
-  width: 520px;
-  height: 400px; }
-
-.fifthhSection {
-  background-color: #f5f4f4; }
-  .fifthhSection .container {
-    max-width: 450px; }
-  .fifthhSection .providersContent h2 {
-    padding-top: 40px;
-    text-align: center; }
-  .fifthhSection .providersContent p {
-    padding-top: 20px;
-    margin-bottom: 20px;
-    text-align: center; }
-  .fifthhSection .provider {
-    background-image: url("/img/graphics/providerlogo.png");
-    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: relative;
-    height: 400px;
-    margin-bottom: 50px; }
-
-.sixthSection {
-  margin-top: 80px;
-  margin-bottom: 100px; }
-  .sixthSection .column {
-    display: grid;
-    grid-template-columns: 1fr 1fr; }
-  .sixthSection .signup-lists {
-    list-style-type: none;
+    background-size: cover; }
+    body .firstSection .intro h3 {
+      width: 280px;
+      left: 50px;
+      position: relative;
+      padding-top: 120px;
+      color: #ffffff;
+      font-weight: bold; }
+      body .firstSection .intro h3 span {
+        font-size: 15px;
+        float: left;
+        padding-top: 10px; }
+    body .firstSection .column {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+    body .firstSection .register {
+      padding-top: 80px; }
+      body .firstSection .register .card {
+        min-width: 400px;
+        float: right;
+        margin-right: 50px;
+        margin-bottom: 25px; }
+      body .firstSection .register .btn-primary {
+        background-color: #2AAEFF !important;
+        border-color: #2AAEFF !important;
+        font-weight: 600; }
+  body .secondSection {
+    min-height: 40px;
     text-align: center;
-    margin: 40px;
-    margin-right: 60px; }
-  .sixthSection .signup-form {
-    margin-left: 60px;
-    margin-right: 20px;
-    margin-top: 15px; }
-  .sixthSection .divider {
-    border-left: 1px solid;
-    margin-top: 20px;
-    height: 320px; }
-
-@media (max-width: 990px) {
-  .firstSection {
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top; }
-  #home .thirdSection .contents {
-    /*breakpoint*/
-    grid-template-columns: none; }
-  .sixthSection .divider {
-    border: none; }
-  .sixthSection .signup-form {
-    margin-left: 120px;
-    margin-right: 120px; }
-  .sixthSection h3 {
-    margin-bottom: 35px; }
-  .sixthSection .column {
-    grid-template-columns: none; } }
+    padding: 80px 140px;
+    background-color: #F2FBFF; }
+    body .secondSection .secondContent {
+      max-width: 750px;
+      text-align: center; }
+      body .secondSection .secondContent h2 {
+        font-weight: 650; }
+      body .secondSection .secondContent p {
+        padding-top: 1px; }
+  body .thirdSection {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    body .thirdSection .card {
+      margin: 0 auto;
+      float: none;
+      border: none;
+      text-align: center; }
+      body .thirdSection .card .card-title {
+        font-weight: 650;
+        font-size: 1.3rem; }
+    body .thirdSection .flaticon-responsive-1,
+    body .thirdSection .flaticon-balloons,
+    body .thirdSection .flaticon-payment-method {
+      margin: 0 auto; }
+    body .thirdSection [class^="flaticon-"]:before {
+      font-size: 75px;
+      margin-left: 0; }
+  body .fifthhSection {
+    background-color: #F2FBFF; }
+    body .fifthhSection .container {
+      max-width: 450px; }
+    body .fifthhSection .providersContent h2 {
+      padding-top: 40px;
+      text-align: center;
+      font-weight: 650; }
+    body .fifthhSection .providersContent p {
+      padding-top: 20px;
+      margin-bottom: 40px;
+      text-align: center; }
+    body .fifthhSection .provider {
+      width: 100%;
+      height: auto; }
+  body .sixthSection {
+    margin-top: 60px;
+    margin-bottom: 80px; }
+    body .sixthSection .column {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+    body .sixthSection .signup-lists {
+      list-style-type: none;
+      text-align: center;
+      margin: 40px;
+      margin-right: 60px; }
+    body .sixthSection .signup-form {
+      margin-left: 60px;
+      margin-right: 20px;
+      margin-top: 15px; }
+    body .sixthSection .divider {
+      border-left: 1px solid;
+      margin-top: 20px;
+      height: 320px; }
+  @media (max-width: 990px) {
+    body .firstSection {
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center top; }
+    body .firstSection .intro {
+      display: none; }
+    body .firstSection .register {
+      max-width: 400px;
+      margin-top: 150px;
+      margin-left: auto;
+      margin-right: auto; }
+      body .firstSection .register .card {
+        float: none;
+        margin: 0 auto;
+        border: none; }
+    body #home .thirdSection .contents {
+      /*breakpoint*/
+      grid-template-columns: none; }
+    body .sixthSection .divider {
+      border: none; }
+    body .sixthSection .signup-form {
+      margin-left: 120px;
+      margin-right: 120px; }
+    body .sixthSection h3 {
+      margin-bottom: 35px; }
+    body .sixthSection .column {
+      grid-template-columns: none; } }

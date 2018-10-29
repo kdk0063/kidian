@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 18/10/2018 03:02
+  	Creation date: 29/10/2018 18:52
   	*/
 
 @font-face {
@@ -24,19 +24,26 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 35px;
+        font-size: 20px;
 font-style: normal;
-margin-left: 10px;
+margin-left: 20px;
 }
 
-.flaticon-birthday-3:before { content: "\f100"; }
-.flaticon-birthday:before { content: "\f101"; }
-.flaticon-birthday-1:before { content: "\f102"; }
-.flaticon-birthday-2:before { content: "\f103"; }
-.flaticon-flyer:before { content: "\f104"; }
-.flaticon-smartphone:before { content: "\f105"; }
-.flaticon-smartphone-1:before { content: "\f106"; }
-.flaticon-ui:before { content: "\f107"; }
-.flaticon-smartphone-2:before { content: "\f108"; }
-.flaticon-placeholder:before { content: "\f109"; }
-.flaticon-shop:before { content: "\f10a"; }
+.flaticon-payment-method:before { content: "\f100"; }
+.flaticon-money:before { content: "\f101"; }
+.flaticon-map:before { content: "\f102"; }
+.flaticon-map-1:before { content: "\f103"; }
+.flaticon-news:before { content: "\f104"; }
+.flaticon-confetti-2:before { content: "\f105"; }
+.flaticon-cake:before { content: "\f106"; }
+.flaticon-balloons:before { content: "\f107"; }
+.flaticon-smartphone:before { content: "\f108"; }
+.flaticon-smartphone-1:before { content: "\f109"; }
+.flaticon-smartphone-2:before { content: "\f10a"; }
+.flaticon-smartphone-3:before { content: "\f10b"; }
+.flaticon-responsive-1:before { content: "\f10c"; }
+.flaticon-giftbox:before { content: "\f10d"; }
+.flaticon-box:before { content: "\f10e"; }
+.flaticon-box-1:before { content: "\f10f"; }
+.flaticon-heart-box:before { content: "\f110"; }
+.flaticon-dance:before { content: "\f111"; }
