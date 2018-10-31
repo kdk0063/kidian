@@ -178,14 +178,17 @@ body {
         float: none;
         margin: 0 auto;
         border: none; }
+    body .secondSection {
+      padding: 60px 0 60px 0; }
     body #home .thirdSection .contents {
       /*breakpoint*/
       grid-template-columns: none; }
     body .sixthSection .divider {
       border: none; }
     body .sixthSection .signup-form {
-      margin-left: 120px;
-      margin-right: 120px; }
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto; }
     body .sixthSection h3 {
       margin-bottom: 35px; }
     body .sixthSection .column {

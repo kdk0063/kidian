@@ -5,7 +5,7 @@ class AboutFooter extends Component{
 
     render (){ 
         return(        
-            <div className="container-fluid">
+            <div id="footer">
                 <div className="footerBG row">
                     <div className="footer-buttons">
                         <div className="social-links">                    

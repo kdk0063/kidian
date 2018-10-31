@@ -12,7 +12,7 @@ class Provider extends Component{
     render(){ 
         return (
             <div id="home">     
-                <section className="firstSection"> 
+                <div className="firstSection"> 
                     <div className="row"> 
                         <div className="col-lg-6 intro">
                             <div className="introContent">
@@ -50,7 +50,7 @@ class Provider extends Component{
                            
                         </div>                              
                     </div> 
-                </section>
+                </div>
 
                 <div className="secondSection">
                     <div className="container secondContent">

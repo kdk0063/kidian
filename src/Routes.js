@@ -3,9 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './components/Home';
 import Provider from './components/Provider';
-import Projects from './components/Parents';
 import Login from './components/Login';
-import InfoLanding from './components/InfoLanding';
+import HomeLanding from './components/HomeLanding';
 
 
 class Routes extends Component {
@@ -16,9 +15,8 @@ class Routes extends Component {
                     <Route exact path='/' component={Provider}/>   
                     <Route exact path='/Home' component={Home}/>
                     <Route exact path='/Provider' component={Provider}/>
-                    <Route exact path='/Parents' component={Projects}/>
                     <Route exact path='/Login' component={Login}/>
-                    <Route exact path='/InfoLanding' component={InfoLanding}/>
+                    <Route exact path='/HomeSearch' component={HomeLanding}/>
                 </Switch> 
             </div>
         )

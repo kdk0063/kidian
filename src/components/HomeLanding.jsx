@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class InfoLanding extends Component{
+class HomeLanding extends Component{
 
 //depending on which service is clicked, service call we be made accordingly
 
@@ -27,4 +27,4 @@ class InfoLanding extends Component{
         )
     }
 }
-export default InfoLanding;
+export default HomeLanding;

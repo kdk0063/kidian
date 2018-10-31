@@ -6,7 +6,7 @@ import $ from 'jquery';
 class Nav extends Component {
     
     listenScrollEvent = e => {
-        //or use scrollY
+        //or use scrollY - this is gone for now.
         if (window.scrollY > 50) {
             $('.navbar').addClass('transparent');
         } 

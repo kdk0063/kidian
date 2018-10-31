@@ -1,19 +1,14 @@
 .footerBG {
-    position: absolute;
-    width: 100%;
-    background-color:#F2FBFF;
-}
+  position: absolute;
+  width: 100%;
+  background-color: #F2FBFF; }
 
-.footer-buttons{
-    margin: auto;  
-}
+.footer-buttons {
+  margin: auto; }
 
-.social-links{
-    margin: 100px 0px 80px 0px; ; 
-}
+.social-links {
+  margin: 100px 0px 80px 0px; }
 
 .follow {
-    width: 3em;
-    margin: 20px;
-}
-    
+  width: 3em;
+  margin: 20px; }
