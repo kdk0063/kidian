@@ -1,48 +1,46 @@
 @media (min-width: 768px) {
-  .h-md-100 {
+  #loginPage .h-md-100 {
     height: 100vh; }
-  .bg-indigo {
+  #loginPage .bg-indigo {
     background-image: none; }
-  #footer {
-    display: none; }
-  .loginInput {
+  #loginPage .loginInput {
     padding-bottom: 100px; } }
 
 @media (max-width: 760px) {
-  .bg-indigo {
-    display: none; }
-  .col-md-5 {
+  #loginPage .bg-indigo {
+    max-height: 350px; }
+  #loginPage .col-md-5 {
     padding-left: 35px;
     padding-right: 35px; }
-  .footerBG {
+  #loginPage .footerBG {
     margin-top: 120px;
     margin-left: 0;
     margin-right: 0; } }
 
-.welcomeText {
-  margin-top: 20px;
+#loginPage .welcomeText {
+  margin-top: 50px;
   margin-bottom: 50px; }
 
-.btn-round {
+#loginPage .btn-round {
   border-radius: 30px; }
 
-.bg-indigo {
+#loginPage .bg-indigo {
   background-image: url("/img/photos/art-balloons-birthday-1193600.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh; }
 
-.text-cyan {
+#loginPage .text-cyan {
   color: #35bdff; }
 
-.text-inverse,
-.text-center {
+#loginPage .text-inverse,
+#loginPage .text-center {
   font-size: 12px;
   padding-top: 5px;
   margin-top: 10px; }
 
-hr {
+#loginPage hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;

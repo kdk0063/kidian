@@ -42,15 +42,15 @@ class Nav extends Component {
                             </Link>
                             <Link className="nav-item navlinks" to='/Provider'>
                                 Provider
-                            </Link>  
-                            {/*
-                            <Link className="nav-item navlinks" to='/Parents'>
-                                PARENTS
-                            </Link>   
-                            */}                     
+                            </Link>                   
                             <Link className="nav-item navlinks" to='/Login'>
                                 Login
                             </Link>
+                            {/*
+                            <Modal className="nav-item navlinks">
+                                Signup
+                            </Modal>   
+                            */}    
                         </div>
                     </div>
                 </nav>

@@ -6,7 +6,6 @@ import Provider from './components/Provider';
 import Login from './components/Login';
 import HomeLanding from './components/HomeLanding';
 
-
 class Routes extends Component {
     render(){
         return (
