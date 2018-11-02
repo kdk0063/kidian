@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import '../css/Nav.css';
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
+import SignupModal from './SingupModal';
 
 class Nav extends Component {
     
+    /* 
     listenScrollEvent = e => {
         //or use scrollY - this is gone for now.
         if (window.scrollY > 50) {
@@ -13,12 +14,17 @@ class Nav extends Component {
         else {
             $('.navbar').removeClass('transparent'); 
         }
-    }
-
+    } 
+   
     componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)    
     }
+    */
     
+
+
+
+
     render(){
         return (
                 <nav className="navbar navbar-expand-lg navbar-light">
@@ -37,20 +43,23 @@ class Nav extends Component {
                     <div className="collapse navbar-collapse justify-content-end"
                         id="navbarNavAltMarkup">
                         <div className="navbarNav">
-                            <Link className="nav-item navlinks" to='/Home'>
+                            <a className="nav-item navlinks" href='/Home'>
                                 Home
-                            </Link>
-                            <Link className="nav-item navlinks" to='/Provider'>
+                            </a>
+                            <a className="nav-item navlinks" href='/Provider'>
                                 Provider
-                            </Link>                   
-                            <Link className="nav-item navlinks" to='/Login'>
-                                Login
-                            </Link>
-                            {/*
-                            <Modal className="nav-item navlinks">
-                                Signup
-                            </Modal>   
-                            */}    
+                            </a>     
+                             
+                            <a className="nav-item navlinks" data-toggle="modal" data-target="#exampleModal" href="#">
+                                Sign up
+                            </a> 
+
+                            <SignupModal></SignupModal>
+                                           
+                            <a className="nav-item navlinks" href='/Login'>
+                                Log in
+                            </a>
+                           
                         </div>
                     </div>
                 </nav>
