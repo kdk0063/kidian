@@ -43,9 +43,16 @@
         margin-left: 25px;
     }
 
+    .navlinks:visited,
+    .navlinks:active,
+    .navlinks:link,
+    .navlinks:focus {
+        margin-right: 0;
+    }
+
     .navlinks:hover{
         color: #2AAEFF;
         padding-bottom: 5px;
         border-bottom: 1px solid #2AAEFF; 
-    }
+    }    
 }

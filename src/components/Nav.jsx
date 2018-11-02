@@ -53,7 +53,7 @@ class Nav extends Component {
                             <a className="nav-item navlinks" data-toggle="modal" data-target="#exampleModal" href="#">
                                 Sign up
                             </a> 
-
+                            
                             <SignupModal></SignupModal>
                                            
                             <a className="nav-item navlinks" href='/Login'>

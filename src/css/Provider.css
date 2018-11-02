@@ -86,6 +86,8 @@ body {
       grid-template-columns: 1fr 1fr; }
     body .firstSection .register {
       padding-top: 80px; }
+      body .firstSection .register h3 {
+        margin-top: 25px; }
       body .firstSection .register .card {
         min-width: 400px;
         float: right;

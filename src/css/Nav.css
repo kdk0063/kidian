@@ -35,6 +35,11 @@
     position: relative; }
   .logo {
     margin-left: 25px; }
+  .navlinks:visited,
+  .navlinks:active,
+  .navlinks:link,
+  .navlinks:focus {
+    margin-right: 0; }
   .navlinks:hover {
     color: #2AAEFF;
     padding-bottom: 5px;
