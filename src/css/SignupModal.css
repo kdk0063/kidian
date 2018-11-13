@@ -1,0 +1,31 @@
+.modal .modal-header {
+  margin-top: 30px;
+  border-bottom: none; }
+
+.modal .modal-title {
+  text-align: center; }
+  .modal .modal-title h4 {
+    font-weight: 350; }
+  .modal .modal-title h4:before,
+  .modal .modal-title h4:after {
+    background-color: #E9ECEF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%; }
+  .modal .modal-title h4:before {
+    right: 0.5em;
+    margin-left: -50%; }
+  .modal .modal-title h4:after {
+    left: 0.5em;
+    margin-right: -50%; }
+
+.modal .pormoContent {
+  margin-top: 20px;
+  font-size: 14px; }
+
+.modal .signupBtn {
+  margin-top: 30px;
+  margin-bottom: 10px; }

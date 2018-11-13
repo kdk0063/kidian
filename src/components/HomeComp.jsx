@@ -15,10 +15,16 @@ class HomeComp extends Component{
                             <div>All Party Products</div>
                         </h3>
                         <h6>
-                            <span className="vendorIcon flaticon-birthday-1"> <span className="catVendors"> Vendors </span> </span>
-                            <span className="mobileIcon flaticon-smartphone-2"> <span className="catMobiles"> Mobiles </span> </span>
-                            <span className="cakeIcon flaticon-birthday-3"> 
-                            <span className="catCakes"> Cakes </span> </span>
+                        
+                        <div className="row">
+                            <span className="vendorIcon flaticon-confetti-2">       <span className="catVendors"> Vendors </span> 
+                            </span>
+                                <span className="mobileIcon flaticon-smartphone-2"> <span className="catMobiles"> Mobiles </span> 
+                            </span>
+                            <span className="cakeIcon flaticon-cake"> 
+                                <span className="catCakes"> Cakes </span> 
+                            </span>
+                        </div>
                             
                         </h6>
                     </div>

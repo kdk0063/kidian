@@ -1,6 +1,9 @@
 import React, { Component } from "react"; 
 import '../css/Login.css';
 
+import SignupModal from './SingupModal';
+
+
 class Login extends Component{
 
     render(){
@@ -41,7 +44,9 @@ class Login extends Component{
 
                                 <br></br>
 
-                                 <div className="text-inverse">Not a member yet? Click&nbsp;<a ui-sref="register" className="text-success" href="/register">here</a>&nbsp;to register.</div>
+                                 <div className="text-inverse">Not a member yet? Click&nbsp;<a data-toggle="modal" data-target="#exampleModal" href="#" className="text-success" href="/register">here</a>&nbsp;to register.</div>
+
+                                <SignupModal></SignupModal>
 
                                 <div className="text-inverse">Forgot your password? Click&nbsp;<a ui-sref="resetPassword" className="text-success" href="/resetPassword">here</a>&nbsp;to reset password.</div>
 

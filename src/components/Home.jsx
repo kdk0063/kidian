@@ -8,6 +8,7 @@ class Home extends Component{
     render(){
         return(
             <div>
+                {/* 
                 <div id="header">
                     <div id="welcome_text_div" className="container">
                         <p id="welcome_text"> Let's party</p>
@@ -17,13 +18,14 @@ class Home extends Component{
                         </a>
                     </div>
                 </div>
-            
+                */}
+
                 <div id="first-body">
                     <HomeComp> </HomeComp>
                 </div>
                 
                 
-        
+
             </div>     
         )    
     }
