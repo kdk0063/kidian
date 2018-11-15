@@ -6,7 +6,7 @@ class AboutFooter extends Component{
     render (){ 
         return(        
             <div id="footer">
-                <div className="footerBG row">
+                <div className="footerBG">
                     <div className="footer-buttons">
                         <div className="social-links">                    
                             <a href="https://www.linkedin.com/company/28628571/" target="_blank">

@@ -7,18 +7,8 @@ class InfoDetail extends Component{
         return(
             <div>
                 
-                    <div className="col-8">
-                        <div className="serachDetail">
-                            serach goes here
-                        </div>
-                    </div>
-
+                <GMaps></GMaps>   
                     
-                    <div className="col-4">
-                        <GMaps></GMaps>   
-                    </div>
-                
-               
             </div>
         )
     }
