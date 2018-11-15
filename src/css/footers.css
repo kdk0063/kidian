@@ -1,6 +1,5 @@
 .footerBG {
-  position: absolute;
-  width: 100%;
+  width: 100vw;
   background-color: #F2FBFF; }
 
 .footer-buttons {
