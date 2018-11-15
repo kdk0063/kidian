@@ -1,9 +1,14 @@
-#footer .footerBG {
-  background-color: #F2FBFF; }
-
-#footer .footer-buttons {
-  margin: auto; }
-
-#footer .follow {
-  width: 3em;
-  margin: 20px; }
+#footer {
+  bottom: 0;
+  width: 100%; }
+  #footer .row {
+    margin-left: 0;
+    margin-right: 0;
+    height: 200px; }
+  #footer .footerBG {
+    background-color: #F2FBFF; }
+  #footer .footer-buttons {
+    margin: auto; }
+  #footer .follow {
+    width: 3em;
+    margin: 20px; }

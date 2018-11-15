@@ -1,4 +1,13 @@
 #footer{
+    bottom: 0;
+    width: 100%;
+
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+        height: 200px;
+    }
+    
     .footerBG {  
         background-color:#F2FBFF;
     }
