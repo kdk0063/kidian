@@ -1,0 +1,42 @@
+@media (max-width: 760px) {
+  #resetPage .bg-indigo {
+    max-height: 350px; }
+  #resetPage .col-md-5 {
+    padding-left: 35px;
+    padding-right: 35px; }
+  #resetPage .footerBG {
+    margin-top: 120px;
+    margin-left: 0;
+    margin-right: 0; }
+  #resetPage .pwInput {
+    margin-bottom: 50px;
+    padding-bottom: 30px; } }
+
+#resetPage .welcomeText {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#resetPage .btn-round {
+  border-radius: 30px; }
+
+#resetPage .bg-indigo {
+  background-image: url("/img/photos/art-balloons-birthday-1193600.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; }
+
+#resetPage .text-cyan {
+  color: #35bdff; }
+
+#resetPage .text-inverse,
+#resetPage .text-center {
+  font-size: 12px;
+  padding-top: 5px;
+  margin-top: 10px; }
+
+#resetPage hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee; }

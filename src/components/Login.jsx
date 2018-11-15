@@ -9,7 +9,7 @@ class Login extends Component{
     render(){
         return(
             <div id="loginPage">
-                <div className="d-md-flex h-md-100 align-items-center">
+                <div className="d-md-flex h-md-100">
 
                     <div className="col-md-7 p-5 pb-5 bg-indigo h-md-100">
                         <div className="text-white d-md-flex align-items-center h-100 p-5 text-center justify-content-center"> 
@@ -31,6 +31,7 @@ class Login extends Component{
                                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                                 </div>
+
                                 <div className="form-group">
                                     <label> Password &nbsp;
                                     <span className="text-danger">*</span>
@@ -48,7 +49,7 @@ class Login extends Component{
 
                                 <SignupModal></SignupModal>
 
-                                <div className="text-inverse">Forgot your password? Click&nbsp;<a ui-sref="resetPassword" className="text-success" href="/resetPassword">here</a>&nbsp;to reset password.</div>
+                                <div className="text-inverse">Forgot your password? Click&nbsp;<a ui-sref="resetPassword" className="text-success" href="/ResetPw">here</a>&nbsp;to reset password.</div>
 
                                 <hr></hr>
 
