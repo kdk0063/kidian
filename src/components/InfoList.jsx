@@ -6,53 +6,181 @@ class InfoList extends Component{
     render(){
         return(
             <div id="infoList">
-
-                <div className="container categories">                
-                    <div className="row">
+                <div className="container-fluid">                
+                    <div className="row categories">
                         <span className="vendorIcon flaticon-confetti-2">       
-                            <span className="catVendors"> Vendors </span> 
+                            <span className="catVendors"> Dates </span> 
                         </span>
                         
                         <span className="mobileIcon flaticon-smartphone-2"> 
-                            <span className="catMobiles"> Mobiles </span> 
+                            <span className="catMobiles"> Guests </span> 
                         </span>
 
                         <span className="cakeIcon flaticon-cake"> 
-                            <span className="catCakes"> Cakes </span> 
+                            <span className="catCakes"> Price </span> 
                         </span>
                     </div>                    
                 </div>
 
-                <div className="container contents">
-                    <div className=" row">
+                <div className="contents">
+                    <div className="row row1">
                         <div className="col-md-8">
                             <h4 className="pb-3 align-left mbr-fonts-style">
-                                Drop a Line
+                                Vendors
                             </h4>
 
-                            <div className="card w-140">
-                                <div className="row no-gutters">
-                                    <div className="col-auto">
-                                        <img src="//placehold.it/200" className="img-fluid" alt="" />
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-auto">
+                                        <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
                                     </div>
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> Art & Painting </h3>
+                                            <h3 class="card-title">Art & Soul Studio</h3>
+                                            <p class="card-text">Description</p>
 
-                                    <div className="col">
-                                        <div className="card-block px-2">
-                                            <h4 className="card-title">Title</h4>
-                                            <p className="card-text">Description</p>
+                                            <div className="stars">
+                                                <span className="fa fa-star checked"></span>
+                                                <span className="fa fa-star checked"></span>
+                                                <span className="fa fa-star checked"></span>
+                                                <span className="fa fa-star"></span>
+                                                <span className="fa fa-star"></span>
+                                            </div>
                                         </div>
                                     </div>
 
-                                    <div className="col">
-                                        <div className="card-block ">
-                                            <h4 className="card-title">Title</h4>
-                                            <p className="card-text">Description</p>
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> $45Usd </h3>
+                                            <span> per person</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-auto">
+                                        <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> Art & Painting </h3>
+                                            <h3 class="card-title">Art & Soul Studio</h3>
+                                            <p class="card-text">Description</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> $45Usd </h3>
+                                            <span> per person</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-auto">
+                                        <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> Art & Painting </h3>
+                                            <h3 class="card-title">Art & Soul Studio</h3>
+                                            <p class="card-text">Description</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> $45Usd </h3>
+                                            <span> per person</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-auto">
+                                        <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> Art & Painting </h3>
+                                            <h3 class="card-title">Art & Soul Studio</h3>
+                                            <p class="card-text">Description</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> $45Usd </h3>
+                                            <span> per person</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-auto">
+                                        <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> Art & Painting </h3>
+                                            <h3 class="card-title">Art & Soul Studio</h3>
+                                            <p class="card-text">Description</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> $45Usd </h3>
+                                            <span> per person</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="row no-gutters">
+                                    <div class="col-auto">
+                                        <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> Art & Painting </h3>
+                                            <h3 class="card-title">Art & Soul Studio</h3>
+                                            <p class="card-text">Description</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="card-block px-2">
+                                            <h3 className="types"> $45Usd </h3>
+                                            <span> per person</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div className="pagination">
+                                <a href="#">&laquo;</a>
+                                <a href="#" className="active">1</a>
+                                <a href="#" >2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                                <a href="#">6</a>
+                                <a href="#">&raquo;</a>
+                            </div>
+           
+                        </div>
 
                         <div className="col-md-4">
                             <div className="google-map">

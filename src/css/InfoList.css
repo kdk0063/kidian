@@ -1,17 +1,81 @@
-#infoList .container .categories {
-  margin-top: 20px;
-  margin-bottom: 20px; }
+#infoList .container-fluid .categories {
+  padding-left: 30px;
+  padding-top: 30px; }
+  #infoList .container-fluid .categories .vendorIcon,
+  #infoList .container-fluid .categories .mobileIcon,
+  #infoList .container-fluid .categories .cakeIcon {
+    margin-right: 25px;
+    border: 1px solid #e7e6e6;
+    border-radius: 50px;
+    padding: 20px; }
+  #infoList .container-fluid .categories .vendorIcon:hover,
+  #infoList .container-fluid .categories .mobileIcon:hover,
+  #infoList .container-fluid .categories .cakeIcon:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15); }
 
-#infoList .container .contents {
-  margin-bottom: 100px; }
+#infoList .contents .row1 {
+  padding-top: 50px;
+  height: 700px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden; }
 
 #infoList .col-md-8:first-child {
-  padding-right: 30px; }
+  padding-left: 30px;
+  height: 100%;
+  overflow: auto; }
+  #infoList .col-md-8:first-child .card {
+    max-height: 400px;
+    margin-bottom: 20px; }
+    #infoList .col-md-8:first-child .card img {
+      min-width: 300px;
+      max-width: 355px; }
+    #infoList .col-md-8:first-child .card .amount {
+      font-size: 12px;
+      color: #14275e;
+      font-weight: bold; }
+    #infoList .col-md-8:first-child .card .card-block {
+      padding: 25px; }
+      #infoList .col-md-8:first-child .card .card-block .types {
+        font-size: 12px;
+        color: #14275e;
+        font-weight: bold; }
+      #infoList .col-md-8:first-child .card .card-block .card-title {
+        font-size: 18px;
+        font-weight: bold; }
+      #infoList .col-md-8:first-child .card .card-block .card-text {
+        font-size: 14px; }
+      #infoList .col-md-8:first-child .card .card-block .stars {
+        font-size: 10px; }
+  #infoList .col-md-8:first-child .pagination {
+    justify-content: center;
+    margin: 35px auto; }
+  #infoList .col-md-8:first-child .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none; }
+  #infoList .col-md-8:first-child .pagination a.active {
+    background-color: #d65e27;
+    color: white;
+    border-radius: 50%; }
+  #infoList .col-md-8:first-child .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%; }
+
+#infoList .col-md-8:first-child::-webkit-scrollbar {
+  display: none; }
+
+#infoList .col-md-4 {
+  height: 100%;
+  position: aboslute;
+  padding-right: 0; }
 
 #infoList .google-map {
   float: right;
-  height: 35rem;
-  width: 20rem; }
+  height: 100%;
+  width: 90%; }
   #infoList .google-map iframe {
     height: 100%;
     width: 100%; }

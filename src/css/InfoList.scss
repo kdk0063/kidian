@@ -1,23 +1,124 @@
 #infoList{
    
-    .container .categories{
-        margin-top: 20px;
-        margin-bottom: 20px;
+    .container-fluid{
+       
+    
+        .categories{
+            padding-left: 30px;
+            padding-top: 30px;
+
+            .vendorIcon,
+            .mobileIcon,
+            .cakeIcon{
+                margin-right: 25px;
+                border: 1px solid rgb(231, 230, 230);
+                border-radius: 50px;
+                padding: 20px; 
+            }
+        
+            .vendorIcon:hover,
+            .mobileIcon:hover,
+            .cakeIcon:hover { 
+                box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .15);
+            }
+        }
     }
 
-
-    .container .contents{
-        margin-bottom: 100px;
+    .contents{
+        .row1{
+            padding-top: 50px;
+            height: 700px;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            overflow: hidden;
+        }
     }
 
     .col-md-8:first-child {
-        padding-right: 30px;
+        padding-left: 30px;
+        height: 100%;
+        overflow: auto;
+
+        .card{
+            max-height: 400px;
+            margin-bottom: 20px;
+            
+            img{
+                min-width: 300px;
+                max-width: 355px;
+            }
+
+            .amount{
+                font-size: 12px;
+                color:rgb(20, 39, 94);
+                font-weight: bold;
+            }
+
+            .card-block{
+                padding: 25px;
+
+                .types{
+                    font-size: 12px;
+                    color:rgb(20, 39, 94);
+                    font-weight: bold;
+                }
+
+                .card-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+                .card-text{
+                    font-size: 14px;
+                }
+
+                .stars{
+                   font-size: 10px;
+                    
+                } 
+            }
+            
+        }
+
+        .pagination{
+            justify-content: center;
+            margin: 35px auto;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        
+        .pagination a.active {
+            background-color: rgb(214, 94, 39);
+            color: white;
+            border-radius: 50%;
+        }
+        
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+            border-radius: 50%;
+        }
+    }
+
+    .col-md-8:first-child::-webkit-scrollbar { 
+        display: none;  // Safari and Chrome
+    }
+
+    .col-md-4{
+        height: 100%;
+        position: aboslute;
+        padding-right: 0;
     }
 
     .google-map{
         float: right;
-        height: 35rem;
-        width: 20rem;
+        height: 100%;
+        width: 90%;
 
         iframe{
             height: 100%;
