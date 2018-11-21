@@ -1,0 +1,17 @@
+#infoList .container .categories {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#infoList .container .contents {
+  margin-bottom: 100px; }
+
+#infoList .col-md-8:first-child {
+  padding-right: 30px; }
+
+#infoList .google-map {
+  float: right;
+  height: 35rem;
+  width: 20rem; }
+  #infoList .google-map iframe {
+    height: 100%;
+    width: 100%; }

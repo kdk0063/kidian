@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/InfoComp.css';
+import InfoCarousel from './InfoCarousel';
 
 class InfoComp extends Component{
 
@@ -7,6 +8,9 @@ class InfoComp extends Component{
         return(
             <div className="container">
                 <div className="row">
+
+                    {/* <InfoCarousel></InfoCarousel> */}
+
                     <div id="contentCard" className="col-xl-3 col-lg-4 col-sm-12 col-md-6">
                         <div className="card">
                             <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>

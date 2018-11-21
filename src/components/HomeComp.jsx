@@ -40,7 +40,7 @@ class HomeComp extends Component{
                         <InfoComp></InfoComp>
 
                         <div>
-                            <Link to="/InfoDetail" className="showAll">Show all (30+) > </Link>
+                            <Link to="/InfoList" className="showAll">Show all (30+) > </Link>
                         </div>                     
                     </div>
                 </section>

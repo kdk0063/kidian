@@ -6,7 +6,7 @@ import Provider from './components/Provider';
 import Login from './components/Login';
 import HomeLanding from './components/HomeLanding';
 import ResetPw from './components/ResetPw';
-import InfoDetail from './components/InfoDetail';
+import InfoList from './components/InfoList';
 
 class Routes extends Component {
     render(){
@@ -19,7 +19,7 @@ class Routes extends Component {
                     <Route exact path='/Login' component={Login}/>
                     <Route exact path='/HomeSearch' component={HomeLanding}/>
                     <Route exact path='/ResetPw' component={ResetPw}/>
-                    <Route exact path='/InfoDetail' component={InfoDetail}/>
+                    <Route exact path='/InfoList' component={InfoList}/>
                 </Switch> 
             </div>
         )

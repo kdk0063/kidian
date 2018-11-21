@@ -20,15 +20,14 @@ class GMaps extends Component{
     render() {
         
         const style={
-            width: '350px',
+            width: '200px',
             height: '100vh'
         }
 
         return (
-            <div className='mapstyle'>
+            <div>
                 <Map google={this.props.google}
-                    style={{width: '100%', height: '100%', position: 'relative'}}
-                    className={'map'}
+                    style={{width: '150px', height: '80%',}}
                     zoom={12}>
               
                 <Marker onClick={this.onMarkerClick}

@@ -1,0 +1,29 @@
+#infoList{
+   
+    .container .categories{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .container .contents{
+        margin-bottom: 100px;
+    }
+
+    .col-md-8:first-child {
+        padding-right: 30px;
+    }
+
+    .google-map{
+        float: right;
+        height: 35rem;
+        width: 20rem;
+
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    
+}
