@@ -17,10 +17,14 @@ class HomeComp extends Component{
                         <h6>
                         
                         <div className="row">
-                            <span className="vendorIcon flaticon-confetti-2">       <span className="catVendors"> Vendors </span> 
+                            <span className="vendorIcon flaticon-confetti-2"> 
+                                <span className="catVendors"> Vendors </span> 
                             </span>
-                                <span className="mobileIcon flaticon-smartphone-2"> <span className="catMobiles"> Mobiles </span> 
+
+                            <span className="mobileIcon flaticon-smartphone-2"> 
+                                <span className="catMobiles"> Mobiles </span> 
                             </span>
+
                             <span className="cakeIcon flaticon-cake"> 
                                 <span className="catCakes"> Cakes </span> 
                             </span>

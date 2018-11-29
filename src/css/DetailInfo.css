@@ -1,0 +1,37 @@
+#detailInfoPage #myCarousel {
+  margin-bottom: 40px; }
+
+#detailInfoPage .carousel-inner > .carousel-item > img {
+  width: 100%;
+  height: 550px; }
+
+#detailInfoPage #userComments {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  #detailInfoPage #userComments .title {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0; }
+  #detailInfoPage #userComments .post {
+    font-size: 12px;
+    display: block; }
+  #detailInfoPage #userComments .description {
+    font-size: 13px;
+    color: #918686;
+    padding-top: 10px;
+    line-height: 20px; }
+  #detailInfoPage #userComments .pic {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px; }
+    #detailInfoPage #userComments .pic img {
+      width: 100%;
+      height: 100px;
+      border-radius: 50%; }
+
+@media (max-width: 600px) {
+  #detailInfoPage .carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 300px; } }

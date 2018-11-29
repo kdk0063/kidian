@@ -1,50 +1,54 @@
-.modal{
+#signupModal{
 
-    .modal-header{
-        margin-top: 30px;
-        border-bottom: none;
-    }
-
-    .modal-title{
-        text-align: center;
-
-        h4{
-            font-weight: 350;
-           
+    .modal{
+        
+        .modal-header{
+            margin-top: 30px;
+            border-bottom: none;
         }
-
-        h4:before,
-        h4:after {
-            background-color: #E9ECEF;
-            content: "";
-            display: inline-block;
-            height: 1px;
-            position: relative;
-            vertical-align: middle;
-            width: 30%
+        
+        .modal-title{
+            text-align: center;
+            
+            h4{
+                font-weight: 350;
+                
+            }
+            
+            h4:before,
+            h4:after {
+                background-color: #E9ECEF;
+                content: "";
+                display: inline-block;
+                height: 1px;
+                position: relative;
+                vertical-align: middle;
+                width: 30%
+            }
+            
+            h4:before {
+                right: 0.5em;
+                margin-left: -50%;
+            }
+            h4:after {
+                left: 0.5em;
+                margin-right: -50%;
+            }
         }
-
-        h4:before {
-            right: 0.5em;
-            margin-left: -50%;
+        
+        
+        
+        
+        .pormoContent{ 
+            margin-top: 20px;
+            font-size: 14px;
         }
-        h4:after {
-            left: 0.5em;
-            margin-right: -50%;
+        
+        .signupBtn{
+            margin-top: 30px;
+            margin-bottom: 10px;
         }
-    }
-
-    
-
-
-    .pormoContent{ 
-        margin-top: 20px;
-        font-size: 14px;
-    }
-
-    .signupBtn{
-        margin-top: 30px;
-        margin-bottom: 10px;
     }
 }
-
+    
+    

@@ -1,6 +1,8 @@
 body {
-  color: #666;
-  /*
+  color: #666; }
+  body #home {
+    overflow-x: hidden;
+    /*
   .fourthSection{
     .row {
       display: flex; 
@@ -41,7 +43,7 @@ body {
     }
   }
   */
-  /*
+    /*
   .firstSection{
     .intro{
         h3{
@@ -57,141 +59,139 @@ body {
       margin-top: 150px;
     }
     */ }
-  body #home {
-    overflow-x: hidden; }
-  body .firstSection {
-    background-image: url("/img/photos/Pierre-TinyTowne.jpg");
-    /*
+    body #home .firstSection {
+      background-image: url("/img/photos/Pierre-TinyTowne.jpg");
+      /*
     background-position: calc(35% - 50px) 50%;
     */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    body .firstSection .intro h3 {
-      width: 280px;
-      left: 50px;
-      position: relative;
-      padding-top: 120px;
-      color: #ffffff;
-      font-weight: bold; }
-      body .firstSection .intro h3 span {
-        font-size: 15px;
-        float: left;
-        padding-top: 10px; }
-    body .firstSection .column {
-      display: grid;
-      grid-template-columns: 1fr 1fr; }
-    body .firstSection .register {
-      padding-top: 80px; }
-      body .firstSection .register h3 {
-        margin-top: 25px; }
-      body .firstSection .register .card {
-        min-width: 400px;
-        float: right;
-        margin-right: 50px;
-        margin-bottom: 25px; }
-      body .firstSection .register .btn-primary {
-        background-color: #2AAEFF !important;
-        border-color: #2AAEFF !important;
-        font-weight: 600; }
-  body .secondSection {
-    min-height: 40px;
-    text-align: center;
-    padding: 80px 140px;
-    background-color: #F2FBFF; }
-    body .secondSection .secondContent {
-      max-width: 750px;
-      text-align: center; }
-      body .secondSection .secondContent h2 {
-        font-weight: 650; }
-      body .secondSection .secondContent p {
-        padding-top: 1px; }
-  body .thirdSection {
-    padding-top: 80px;
-    padding-bottom: 80px; }
-    body .thirdSection .card {
-      margin: 0 auto;
-      float: none;
-      border: none;
-      text-align: center; }
-      body .thirdSection .card .card-title {
-        font-weight: 650;
-        font-size: 1.3rem; }
-    body .thirdSection .flaticon-responsive-1,
-    body .thirdSection .flaticon-balloons,
-    body .thirdSection .flaticon-payment-method {
-      margin: 0 auto; }
-    body .thirdSection [class^="flaticon-"]:before {
-      font-size: 75px;
-      margin-left: 0; }
-  body .fifthhSection {
-    background-color: #F2FBFF; }
-    body .fifthhSection .container {
-      max-width: 450px; }
-    body .fifthhSection .providersContent h2 {
-      padding-top: 40px;
-      text-align: center;
-      font-weight: 650; }
-    body .fifthhSection .providersContent p {
-      padding-top: 20px;
-      margin-bottom: 40px;
-      text-align: center; }
-    body .fifthhSection .provider {
-      width: 100%;
-      height: auto; }
-  body .sixthSection {
-    margin-top: 60px;
-    margin-bottom: 80px; }
-    body .sixthSection .column {
-      display: grid;
-      grid-template-columns: 1fr 1fr; }
-    body .sixthSection .signup-lists {
-      list-style-type: none;
-      text-align: center;
-      margin: 40px;
-      margin-right: 60px; }
-    body .sixthSection .signup-form {
-      margin-left: 60px;
-      margin-right: 20px;
-      margin-top: 15px; }
-    body .sixthSection .divider {
-      border-left: 1px solid;
-      margin-top: 20px;
-      height: 320px; }
-  @media (max-width: 990px) {
-    body .firstSection {
-      -webkit-background-size: contain;
-      -moz-background-size: contain;
-      -o-background-size: contain;
-      background-size: contain;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-position: center;
       background-repeat: no-repeat;
-      background-position: center top; }
-    body .firstSection .intro {
-      display: none; }
-    body .firstSection .register {
-      max-width: 400px;
-      margin-top: 150px;
-      margin-left: auto;
-      margin-right: auto; }
-      body .firstSection .register .card {
-        float: none;
+      background-size: cover; }
+      body #home .firstSection .intro h3 {
+        width: 280px;
+        left: 50px;
+        position: relative;
+        padding-top: 120px;
+        color: #ffffff;
+        font-weight: bold; }
+        body #home .firstSection .intro h3 span {
+          font-size: 15px;
+          float: left;
+          padding-top: 10px; }
+      body #home .firstSection .column {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+      body #home .firstSection .register {
+        padding-top: 80px; }
+        body #home .firstSection .register h3 {
+          margin-top: 25px; }
+        body #home .firstSection .register .card {
+          min-width: 400px;
+          float: right;
+          margin-right: 50px;
+          margin-bottom: 25px; }
+        body #home .firstSection .register .btn-primary {
+          background-color: #2AAEFF !important;
+          border-color: #2AAEFF !important;
+          font-weight: 600; }
+    body #home .secondSection {
+      min-height: 40px;
+      text-align: center;
+      padding: 80px 140px;
+      background-color: #F2FBFF; }
+      body #home .secondSection .secondContent {
+        max-width: 750px;
+        text-align: center; }
+        body #home .secondSection .secondContent h2 {
+          font-weight: 650; }
+        body #home .secondSection .secondContent p {
+          padding-top: 1px; }
+    body #home .thirdSection {
+      padding-top: 80px;
+      padding-bottom: 80px; }
+      body #home .thirdSection .card {
         margin: 0 auto;
+        float: none;
+        border: none;
+        text-align: center; }
+        body #home .thirdSection .card .card-title {
+          font-weight: 650;
+          font-size: 1.3rem; }
+      body #home .thirdSection .flaticon-responsive-1,
+      body #home .thirdSection .flaticon-balloons,
+      body #home .thirdSection .flaticon-payment-method {
+        margin: 0 auto; }
+      body #home .thirdSection [class^="flaticon-"]:before {
+        font-size: 75px;
+        margin-left: 0; }
+    body #home .fifthhSection {
+      background-color: #F2FBFF; }
+      body #home .fifthhSection .container {
+        max-width: 450px; }
+      body #home .fifthhSection .providersContent h2 {
+        padding-top: 40px;
+        text-align: center;
+        font-weight: 650; }
+      body #home .fifthhSection .providersContent p {
+        padding-top: 20px;
+        margin-bottom: 40px;
+        text-align: center; }
+      body #home .fifthhSection .provider {
+        width: 100%;
+        height: auto; }
+    body #home .sixthSection {
+      margin-top: 60px;
+      margin-bottom: 80px; }
+      body #home .sixthSection .column {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
+      body #home .sixthSection .signup-lists {
+        list-style-type: none;
+        text-align: center;
+        margin: 40px;
+        margin-right: 60px; }
+      body #home .sixthSection .signup-form {
+        margin-left: 60px;
+        margin-right: 20px;
+        margin-top: 15px; }
+      body #home .sixthSection .divider {
+        border-left: 1px solid;
+        margin-top: 20px;
+        height: 320px; }
+    @media (max-width: 990px) {
+      body #home .firstSection {
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top; }
+      body #home .firstSection .intro {
+        display: none; }
+      body #home .firstSection .register {
+        max-width: 400px;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto; }
+        body #home .firstSection .register .card {
+          float: none;
+          margin: 0 auto;
+          border: none; }
+      body #home .secondSection {
+        padding: 60px 0 60px 0; }
+      body #home #home .thirdSection .contents {
+        /*breakpoint*/
+        grid-template-columns: none; }
+      body #home .sixthSection .divider {
         border: none; }
-    body .secondSection {
-      padding: 60px 0 60px 0; }
-    body #home .thirdSection .contents {
-      /*breakpoint*/
-      grid-template-columns: none; }
-    body .sixthSection .divider {
-      border: none; }
-    body .sixthSection .signup-form {
-      max-width: 400px;
-      margin-left: auto;
-      margin-right: auto; }
-    body .sixthSection h3 {
-      margin-bottom: 35px; }
-    body .sixthSection .column {
-      grid-template-columns: none; } }
+      body #home .sixthSection .signup-form {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto; }
+      body #home .sixthSection h3 {
+        margin-bottom: 35px; }
+      body #home .sixthSection .column {
+        grid-template-columns: none; } }
