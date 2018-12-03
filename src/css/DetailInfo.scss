@@ -9,8 +9,12 @@
         height: 550px;
     }
 
+    #businessPackages{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     #userComments{
-        
         margin-top: 10px;
         margin-bottom: 20px;
 
@@ -42,6 +46,43 @@
                 height: 100px;
                 border-radius: 50%;
             }   
+        }
+    }
+    
+    #booking{  
+        margin-left: 60px;
+
+        .sticky{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            background-color: blue;
+        }
+    }
+
+    #userUploads{
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            /* Compensate for excess margin on outer gallery flex items */
+        }
+        
+        .gallery-item {
+            margin: 10px auto;
+            box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+        }
+        
+        .gallery-image {
+            display: block;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 400ms ease-out;
+        }
+        
+        .gallery-image:hover {
+            transform: scale(1.15);
         }
     }
 

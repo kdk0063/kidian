@@ -5,6 +5,10 @@
   width: 100%;
   height: 550px; }
 
+#detailInfoPage #businessPackages {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 #detailInfoPage #userComments {
   margin-top: 10px;
   margin-bottom: 20px; }
@@ -30,6 +34,34 @@
       width: 100%;
       height: 100px;
       border-radius: 50%; }
+
+#detailInfoPage #booking {
+  margin-left: 60px; }
+  #detailInfoPage #booking .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: blue; }
+
+#detailInfoPage #userUploads .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */ }
+
+#detailInfoPage #userUploads .gallery-item {
+  margin: 10px auto;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden; }
+
+#detailInfoPage #userUploads .gallery-image {
+  display: block;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 400ms ease-out; }
+
+#detailInfoPage #userUploads .gallery-image:hover {
+  transform: scale(1.15); }
 
 @media (max-width: 600px) {
   #detailInfoPage .carousel-inner > .carousel-item > img {
