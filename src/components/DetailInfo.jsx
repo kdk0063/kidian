@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../css/DetailInfo.css';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import isAfter from 'date-fns/isAfter';
 
 class DetailInfo extends Component{
 
