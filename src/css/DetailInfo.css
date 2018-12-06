@@ -36,17 +36,27 @@
       border-radius: 50%; }
 
 #detailInfoPage #booking {
-  margin-left: 60px; }
+  margin-left: 45px; }
   #detailInfoPage #booking .sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    background-color: blue; }
+    top: 0; }
+  #detailInfoPage #booking .btn {
+    font-weight: bold; }
+  #detailInfoPage #booking .smallText {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-weight: bold; }
+  #detailInfoPage #booking .kGuarntee {
+    display: flex;
+    justify-content: center; }
+  #detailInfoPage #booking .booking-form {
+    border-radius: 40px; }
 
 #detailInfoPage #userUploads .gallery {
   display: flex;
-  flex-wrap: wrap;
-  /* Compensate for excess margin on outer gallery flex items */ }
+  flex-wrap: wrap; }
 
 #detailInfoPage #userUploads .gallery-item {
   margin: 10px auto;
@@ -54,7 +64,6 @@
   overflow: hidden; }
 
 #detailInfoPage #userUploads .gallery-image {
-  display: block;
   width: 250px;
   height: 250px;
   object-fit: cover;

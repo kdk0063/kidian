@@ -150,43 +150,93 @@ class DetailInfo extends Component{
 
                         <div id="booking" className="col-md-4">
                             <form className='sticky'>
-                                <div className="form-group">
-                                    <label htmlFor="Dates">Dates</label>
-                                    <div className='calendar'>
-                                        <div className='calendar'>
-                                            <DatePicker
-                                                selected={this.state.startDate}
-                                                selectsStart
-                                                startDate={this.state.startDate}
-                                                endDate={this.state.endDate}
-                                                onChange={this.handleChangeStart}
-                                            />
+                                <div className="card">
+                                    <div className="card-body">
 
-                                            <DatePicker
-                                                selected={this.state.endDate}
-                                                selectsEnd
-                                                startDate={this.state.startDate}
-                                                endDate={this.state.endDate}
-                                                onChange={this.handleChangeEnd}
-                                            />
+                                        {/* Dates*/}
+                                        <div className="form-group">
+                                            <label htmlFor="Dates">Dates</label>
+                                            <div className='calendar'>
+                                                <div className='calendar'>
+                                                    <DatePicker
+                                                        selected={this.state.startDate}
+                                                        selectsStart
+                                                        startDate={this.state.startDate}
+                                                        endDate={this.state.endDate}
+                                                        onChange={this.handleChangeStart}
+                                                    />
+
+                                                    <DatePicker
+                                                        selected={this.state.endDate}
+                                                        selectsEnd
+                                                        startDate={this.state.startDate}
+                                                        endDate={this.state.endDate}
+                                                        onChange={this.handleChangeEnd}
+                                                    />
+                                                </div>
+                                            </div>
                                         </div>
+                                        
+                                         {/* Packages*/}
+                                        <div className="form-group">
+                                            <label htmlFor="Dates">Packages</label>
+
+                                            <div className="packagesOptions">
+                                                <div class="form-check form-check-inline">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" /> 1
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"/> 2
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" /> 3
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                         {/* Guests */}
+                                        <div className="row">
+                                            <div className="col-md-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Adults (18+)</span>
+                                                    <select class="booking-form form-control">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                    </select>
+                                                    <span class="select-arrow"></span>
+                                                </div>
+                                            </div>
+
+                                            <div className="col-md-6">
+                                                <div class="form-group">
+                                                    <span class="form-label">Children (0-17)</span>
+                                                    <select class="booking-form form-control">
+                                                        <option>0</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                    <span class="select-arrow"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button type="submit" className="btn btn-primary btn-block">Book it!</button>
+                                        
+                                        <small className="smallText">You won’t be charged yet</small>
+                                        
+                                        <hr></hr>
+
+                                        <small className="kGuarntee">Kidian Guarantee</small>
+
                                     </div>
                                 </div>
-
-                                <div className="form-group">
-                                    <label>Example multiple select</label>
-                                    <select multiple className="form-control" id="exampleFormControlSelect2">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    </select>
-                                </div>
-
-                                <div className="form-group">
-                                    Number of Guests
-                                </div>
-
-                                <button type="submit" className="btn btn-primary">Submit</button>
                             </form>
                         </div>
 
@@ -262,29 +312,29 @@ class DetailInfo extends Component{
                             <hr></hr>
 
                             <section id="userUploads">
-                                <div class="gallery">
-                                    <div class="gallery-item">
-                                        <img class="gallery-image" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
+                                <div className="gallery">
+                                    <div className="gallery-item">
+                                        <img className="gallery-image" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop" />
                                     </div>
 
-                                    <div class="gallery-item">
-                                        <img class="gallery-image" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop" alt="sunset behind San Francisco city skyline" />
+                                    <div className="gallery-item">
+                                        <img className="gallery-image" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop" />
                                     </div>
 
-                                    <div class="gallery-item">
-                                        <img class="gallery-image" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan" />
+                                    <div className="gallery-item">
+                                        <img className="gallery-image" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop" />
                                     </div>
 
-                                    <div class="gallery-item">
-                                        <img class="gallery-image" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night" />
+                                    <div className="gallery-item">
+                                        <img className="gallery-image" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop" />
                                     </div>
 
-                                    <div class="gallery-item">
-                                        <img class="gallery-image" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA" />
+                                    <div className="gallery-item">
+                                        <img className="gallery-image" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop" />
                                     </div>
 
-                                    <div class="gallery-item">
-                                        <img class="gallery-image" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp" />
+                                    <div className="gallery-item">
+                                        <img className="gallery-image" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop" />
                                     </div>
                                 </div>
 
@@ -295,8 +345,7 @@ class DetailInfo extends Component{
                         </div>
                     </div>
                 </div>
-
-                         
+           
             </div>
         )
     }

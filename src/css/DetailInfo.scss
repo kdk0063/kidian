@@ -50,13 +50,32 @@
     }
     
     #booking{  
-        margin-left: 60px;
+        margin-left: 45px;
 
         .sticky{
             position: -webkit-sticky;
             position: sticky;
             top: 0;
-            background-color: blue;
+        }
+
+        .btn{
+            font-weight: bold;
+        }
+
+        .smallText{
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            font-weight: bold;
+        }
+        
+        .kGuarntee{
+            display: flex;
+            justify-content: center;
+        }
+
+        .booking-form{
+            border-radius: 40px;
         }
     }
 
@@ -64,7 +83,6 @@
         .gallery {
             display: flex;
             flex-wrap: wrap;
-            /* Compensate for excess margin on outer gallery flex items */
         }
         
         .gallery-item {
@@ -74,7 +92,6 @@
         }
         
         .gallery-image {
-            display: block;
             width: 250px;
             height: 250px;
             object-fit: cover;
