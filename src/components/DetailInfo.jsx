@@ -1,11 +1,26 @@
 import React, { Component } from 'react';
 import '../css/DetailInfo.css';
+
+import { DateRangePicker } from 'react-dates';
+import 'react-dates/lib/css/_datepicker.css';
+
+
+
+
+{/* 
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import isAfter from 'date-fns/isAfter';
 
-class DetailInfo extends Component{
+*/}
 
+
+
+
+
+class DetailInfo extends Component{
+   
+/* 
     constructor(props) {
         super(props);
         this.state = {
@@ -28,6 +43,8 @@ class DetailInfo extends Component{
       handleChangeStart = startDate => this.handleChange({ startDate });
     
       handleChangeEnd = endDate => this.handleChange({ endDate });
+*/
+
 
     render(){
         return(
@@ -153,7 +170,19 @@ class DetailInfo extends Component{
                                 <div className="card">
                                     <div className="card-body">
 
-                                        {/* Dates*/}
+             <div>
+             <DateRangePicker
+  startDate={this.state.startDate} // momentPropTypes.momentObj or null,
+  startDateId="your_unique_start_date_id" // PropTypes.string.isRequired,
+  endDate={this.state.endDate} // momentPropTypes.momentObj or null,
+  endDateId="your_unique_end_date_id" // PropTypes.string.isRequired,
+  onDatesChange={({ startDate, endDate }) => this.setState({ startDate, endDate })} // PropTypes.func.isRequired,
+  focusedInput={this.state.focusedInput} // PropTypes.oneOf([START_DATE, END_DATE]) or null,
+  onFocusChange={focusedInput => this.setState({ focusedInput })} // PropTypes.func.isRequired,
+/>
+            </div>
+{/* 
+                                      
                                         <div className="form-group">
                                             <label htmlFor="Dates">Dates</label>
                                             <div className='calendar'>
@@ -176,6 +205,9 @@ class DetailInfo extends Component{
                                                 </div>
                                             </div>
                                         </div>
+                                    */}
+
+
                                         
                                          {/* Packages*/}
                                         <div className="form-group">
@@ -350,4 +382,4 @@ class DetailInfo extends Component{
         )
     }
 }
-export default DetailInfo
+export default DetailInfo;
