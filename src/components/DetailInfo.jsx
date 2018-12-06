@@ -1,50 +1,18 @@
 import React, { Component } from 'react';
 import '../css/DetailInfo.css';
 
+import 'react-dates/initialize';
 import { DateRangePicker } from 'react-dates';
 import 'react-dates/lib/css/_datepicker.css';
 
-
-
-
-{/* 
-import DatePicker from 'react-datepicker';
-import 'react-datepicker/dist/react-datepicker.css';
-import isAfter from 'date-fns/isAfter';
-
-*/}
-
-
-
-
-
 class DetailInfo extends Component{
-   
-/* 
     constructor(props) {
         super(props);
-        this.state = {
-          startDate: new Date(),
-          endDate: new Date()
-        };
-      }
-    
-      handleChange = ({ startDate, endDate }) => {
-        startDate = startDate || this.state.startDate;
-        endDate = endDate || this.state.endDate;
-    
-        if (isAfter(startDate, endDate)) {
-          endDate = startDate;
+        this.state ={
+          date: null,
+          focused: null
         }
-    
-        this.setState({ startDate, endDate });
-      };
-    
-      handleChangeStart = startDate => this.handleChange({ startDate });
-    
-      handleChangeEnd = endDate => this.handleChange({ endDate });
-*/
-
+      }
 
     render(){
         return(
@@ -165,96 +133,77 @@ class DetailInfo extends Component{
 
                         </div>
 
-                        <div id="booking" className="col-md-4">
+                        <div id="booking" className="col-md-5">
                             <form className='sticky'>
                                 <div className="card">
                                     <div className="card-body">
-
-             <div>
-             <DateRangePicker
-  startDate={this.state.startDate} // momentPropTypes.momentObj or null,
-  startDateId="your_unique_start_date_id" // PropTypes.string.isRequired,
-  endDate={this.state.endDate} // momentPropTypes.momentObj or null,
-  endDateId="your_unique_end_date_id" // PropTypes.string.isRequired,
-  onDatesChange={({ startDate, endDate }) => this.setState({ startDate, endDate })} // PropTypes.func.isRequired,
-  focusedInput={this.state.focusedInput} // PropTypes.oneOf([START_DATE, END_DATE]) or null,
-  onFocusChange={focusedInput => this.setState({ focusedInput })} // PropTypes.func.isRequired,
-/>
-            </div>
-{/* 
-                                      
-                                        <div className="form-group">
-                                            <label htmlFor="Dates">Dates</label>
-                                            <div className='calendar'>
-                                                <div className='calendar'>
-                                                    <DatePicker
-                                                        selected={this.state.startDate}
-                                                        selectsStart
-                                                        startDate={this.state.startDate}
-                                                        endDate={this.state.endDate}
-                                                        onChange={this.handleChangeStart}
-                                                    />
-
-                                                    <DatePicker
-                                                        selected={this.state.endDate}
-                                                        selectsEnd
-                                                        startDate={this.state.startDate}
-                                                        endDate={this.state.endDate}
-                                                        onChange={this.handleChangeEnd}
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    */}
-
-
                                         
+                                        <strong> $149 <small>Total Price</small></strong>
+
+                                        <hr></hr>
+
+                                        {/* Dates */}
+                                        <div className="form-group">
+                                            <div><small>Dates</small></div>
+                                                <DateRangePicker
+                                                    startDate={this.state.startDate} // momentPropTypes.momentObj or null,
+                                                    startDateId="your_unique_start_date_id" // PropTypes.string.isRequired,
+                                                    endDate={this.state.endDate} // momentPropTypes.momentObj or null,
+                                                    endDateId="your_unique_end_date_id" // PropTypes.string.isRequired,
+                                                    onDatesChange={({ startDate, endDate }) => this.setState({ startDate, endDate })} // PropTypes.func.isRequired,
+                                                    focusedInput={this.state.focusedInput} // PropTypes.oneOf([START_DATE, END_DATE]) or null,
+                                                    onFocusChange={focusedInput => this.setState({ focusedInput })} // PropTypes.func.isRequired,
+                                                />
+                                        </div>
+                                    
                                          {/* Packages*/}
                                         <div className="form-group">
-                                            <label htmlFor="Dates">Packages</label>
-
+                                            <div><small>Packages</small></div>
                                             <div className="packagesOptions">
-                                                <div class="form-check form-check-inline">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" /> 1
+                                                <div className="form-check form-check-inline">
+                                                    <label className="form-check-label">
+                                                        <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" /> 1
                                                     </label>
                                                 </div>
-                                                <div class="form-check form-check-inline">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"/> 2
+                                                <div className="form-check form-check-inline">
+                                                    <label className="form-check-label">
+                                                        <input className="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"/> 2
                                                     </label>
                                                 </div>
-                                                <div class="form-check form-check-inline">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" /> 3
+                                                <div className="form-check form-check-inline">
+                                                    <label className="form-check-label">
+                                                        <input className="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" /> 3
                                                     </label>
                                                 </div>
                                             </div>
                                         </div>
 
                                          {/* Guests */}
-                                        <div className="row">
-                                            <div className="col-md-6">
-                                                <div class="form-group">
-                                                    <span class="form-label">Adults (18+)</span>
-                                                    <select class="booking-form form-control">
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                        <option>3</option>
-                                                    </select>
-                                                    <span class="select-arrow"></span>
+                                        <div className="form-group">
+                                            <div><small>Guests</small></div>
+                                            <div className="row">
+                                                <div className="col-md-6">
+                                                    <div className="form-group">
+                                                        <span className="form-label">Adults (18+)</span>
+                                                        <select className="booking-form form-control">
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                        </select>
+                                                        <span className="select-arrow"></span>
+                                                    </div>
                                                 </div>
-                                            </div>
 
-                                            <div className="col-md-6">
-                                                <div class="form-group">
-                                                    <span class="form-label">Children (0-17)</span>
-                                                    <select class="booking-form form-control">
-                                                        <option>0</option>
-                                                        <option>1</option>
-                                                        <option>2</option>
-                                                    </select>
-                                                    <span class="select-arrow"></span>
+                                                <div className="col-md-6">
+                                                    <div className="form-group">
+                                                        <span className="form-label">Children (0-17)</span>
+                                                        <select className="booking-form form-control">
+                                                            <option>0</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                        </select>
+                                                        <span className="select-arrow"></span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -265,8 +214,7 @@ class DetailInfo extends Component{
                                         
                                         <hr></hr>
 
-                                        <small className="kGuarntee">Kidian Guarantee</small>
-
+                                        <small className="kGuarntee">Kidian Guarantee</small>  
                                     </div>
                                 </div>
                             </form>
