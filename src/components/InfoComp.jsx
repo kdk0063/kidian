@@ -2,12 +2,41 @@ import React, { Component } from 'react';
 import '../css/InfoComp.css';
 import { Link } from 'react-router-dom';
 
+import * as InfoCompService from '../services/InfoCompService';
+
 class InfoComp extends Component{
 
+    state = {
+        lat: "15.354765",
+        lon: "73.946676"  
+    }
+
+   vendorsList = () => {
+
+    console.log(this.state);
+
+    const postData = {
+        lat: this.state.lat,
+        lon: this.state.lon
+    }
+
+    InfoCompService.postVendors(postData)
+            .then(response => { 
+                console.log(response)
+            })
+            .catch(error => {
+                console.log(error.response)
+            });
+   }
+    
     render(){
         return(
             <div className="container">
                 <div className="row">                
+
+                    <div>
+                        <button onClick={this.vendorsList}>vendors list</button>
+                    </div>
 
                     <Link to="/DetailInfo">
                         <div id="contentCard" className="col-xl-3 col-lg-4 col-sm-12 col-md-6">

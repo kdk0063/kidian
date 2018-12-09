@@ -50,8 +50,8 @@ class InfoList extends Component{
                                         </div>
                                     </div>
 
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> $45Usd </h3>
                                             <span> per person</span>
                                         </div>
@@ -59,21 +59,21 @@ class InfoList extends Component{
                                 </div>
                             </div>
 
-                            <div class="card">
-                                <div class="row no-gutters">
-                                    <div class="col-auto">
+                            <div className="card">
+                                <div className="row no-gutters">
+                                    <div className="col-auto">
                                         <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
                                     </div>
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> Art & Painting </h3>
-                                            <h3 class="card-title">Art & Soul Studio</h3>
-                                            <p class="card-text">Description</p>
+                                            <h3 className="card-title">Art & Soul Studio</h3>
+                                            <p className="card-text">Description</p>
                                         </div>
                                     </div>
 
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> $45Usd </h3>
                                             <span> per person</span>
                                         </div>
@@ -81,21 +81,21 @@ class InfoList extends Component{
                                 </div>
                             </div>
 
-                            <div class="card">
-                                <div class="row no-gutters">
-                                    <div class="col-auto">
+                            <div className="card">
+                                <div className="row no-gutters">
+                                    <div className="col-auto">
                                         <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
                                     </div>
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> Art & Painting </h3>
-                                            <h3 class="card-title">Art & Soul Studio</h3>
-                                            <p class="card-text">Description</p>
+                                            <h3 className="card-title">Art & Soul Studio</h3>
+                                            <p className="card-text">Description</p>
                                         </div>
                                     </div>
 
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> $45Usd </h3>
                                             <span> per person</span>
                                         </div>
@@ -103,21 +103,21 @@ class InfoList extends Component{
                                 </div>
                             </div>
 
-                            <div class="card">
-                                <div class="row no-gutters">
-                                    <div class="col-auto">
+                            <div className="card">
+                                <div className="row no-gutters">
+                                    <div className="col-auto">
                                         <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
                                     </div>
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> Art & Painting </h3>
-                                            <h3 class="card-title">Art & Soul Studio</h3>
-                                            <p class="card-text">Description</p>
+                                            <h3 className="card-title">Art & Soul Studio</h3>
+                                            <p className="card-text">Description</p>
                                         </div>
                                     </div>
 
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> $45Usd </h3>
                                             <span> per person</span>
                                         </div>
@@ -125,21 +125,21 @@ class InfoList extends Component{
                                 </div>
                             </div>
 
-                            <div class="card">
-                                <div class="row no-gutters">
-                                    <div class="col-auto">
+                            <div className="card">
+                                <div className="row no-gutters">
+                                    <div className="col-auto">
                                         <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
                                     </div>
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> Art & Painting </h3>
-                                            <h3 class="card-title">Art & Soul Studio</h3>
-                                            <p class="card-text">Description</p>
+                                            <h3 className="card-title">Art & Soul Studio</h3>
+                                            <p className="card-text">Description</p>
                                         </div>
                                     </div>
 
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> $45Usd </h3>
                                             <span> per person</span>
                                         </div>
@@ -147,21 +147,21 @@ class InfoList extends Component{
                                 </div>
                             </div>
 
-                            <div class="card">
-                                <div class="row no-gutters">
-                                    <div class="col-auto">
+                            <div className="card">
+                                <div className="row no-gutters">
+                                    <div className="col-auto">
                                         <img className="card-img-top" src="/img/photos/AdobeStock_124884611.jpeg" alt="Card image cap"></img>
                                     </div>
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> Art & Painting </h3>
-                                            <h3 class="card-title">Art & Soul Studio</h3>
-                                            <p class="card-text">Description</p>
+                                            <h3 className="card-title">Art & Soul Studio</h3>
+                                            <p className="card-text">Description</p>
                                         </div>
                                     </div>
 
-                                    <div class="col">
-                                        <div class="card-block px-2">
+                                    <div className="col">
+                                        <div className="card-block px-2">
                                             <h3 className="types"> $45Usd </h3>
                                             <span> per person</span>
                                         </div>
